@@ -1,7 +1,7 @@
 <template>
   <VSection
     id="qa"
-    :reverse="true"
+    reverse
   >
     <template>
       <div class="flex flex-col">
@@ -98,7 +98,12 @@
       </VQAitem>
       <VQAitem>
         <template v-slot:question>S čím přesně můžu pomáhat?</template>
-        <template v-slot:answer>Každá pobočka má lehce odlišné uspořádání, základ ale je podobný. Tým přednášek domlouvá hosty a organizuje přednášky a workshopy, tým marketingu je pak propaguje přes všechny naše komunikační kanály, tým eventů organizuje naše neveřejné akce a tým webu se stará o správu našich webovech a IT zaštítění celého klubu. Další pozice pak mohou být pro konkrétní práci nebo projekt. Před pohovorem je určitě dobré, když si sám rozmyslíš, co by tě bavilo. Ne vždy v daném týmu bude volno, ale pokud tě něco nebude bavit, není problém v rámci klubu po dohodě přejít do jiného oddělení.</template>
+        <template v-slot:answer>Každá pobočka má lehce odlišné uspořádání, základ ale je podobný. Tým přednášek domlouvá
+          hosty a organizuje přednášky a workshopy, tým marketingu je pak propaguje přes všechny naše komunikační
+          kanály, tým eventů organizuje naše neveřejné akce a tým webu se stará o správu našich webovech a IT zaštítění
+          celého klubu. Další pozice pak mohou být pro konkrétní práci nebo projekt. Před pohovorem je určitě dobré,
+          když si sám rozmyslíš, co by tě bavilo. Ne vždy v daném týmu bude volno, ale pokud tě něco nebude bavit, není
+          problém v rámci klubu po dohodě přejít do jiného oddělení.</template>
       </VQAitem>
     </template>
   </VSection>

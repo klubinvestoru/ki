@@ -1,12 +1,13 @@
 <template>
   <section class="text-green-100 relative mb-16">
-    <div class="bg-green-600 h-full w-8/12 absolute left-0 top-0"></div>
-    <div class="flex relative pt-16 pb-24 items-center w-full">
-      <div class="w-5/12 z-10 ml-24">
-        <h1 class="text-5xl font-bold leading-tight">
+    <div class="bg-green-600 h-full w-full md:w-8/12 absolute left-0 top-0"></div>
+    <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
+      <div class="z-10 md:w-5/12 mx-8 md:ml-24">
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
           Pozval jsi někdy miliardáře na přednášku?
         </h1>
-        <p class="mt-6 text-2xl leading-snug">Nastartuj svou kariéru s Klubem &ndash; poznáš zajímavé lidi a získáš
+        <p class="mt-6 text-xl md:text-2xl leading-snug">Nastartuj svou kariéru s Klubem &ndash; poznáš zajímavé lidi a
+          získáš
           profesní
           náskok ještě při studiu. Stáčí nám jen napsat na Facebook.</p>
         <div class="flex flex-col items-center">

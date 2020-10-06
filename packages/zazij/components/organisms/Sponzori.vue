@@ -1,9 +1,9 @@
 <template>
   <section
-    class="px-24 py-4 flex -mt-10 mb-10 bg-green-600 text-center"
+    class="px-6 md:px-24 py-4 flex -mt-10 mb-10 bg-green-600 text-center"
     id="sponzori"
   >
-    <div class="flex justify-between items-center w-8/12 mx-auto py-10 text-purple-100">
+    <div class="grid gap-6 md:gap-0 md:flex justify-between items-center md:w-8/12 mx-auto py-10 text-purple-100">
       <h2 class="text-4xl font-bold">Tak co, už se k nám přidáš?</h2>
       <a
         href="//m.me/klubinvestoru"

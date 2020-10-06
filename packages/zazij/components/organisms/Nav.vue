@@ -1,22 +1,29 @@
 <template>
-  <nav class="relative text-xl py-6 px-16 uppercase tracking-wide w-full flex text-green-100">
-    <a
-      href="#klub"
-      class="mx-6"
-    >Klub</a>
-    <!-- <a
+  <nav
+    class="relative text-xl py-6 px-6 md:px-16 uppercase tracking-wide w-full grid gap-6 md:gap-0 md:flex md:flex-row text-green-100"
+  >
+    <div>
+
+      <a
+        href="#klub"
+        class="mr-6 md:mx-6"
+      >Klub</a>
+      <!-- <a
       href="#lidi"
       class="mx-6"
     >Lidi</a> -->
-    <a
-      href="#qa"
-      class="mx-6"
-    >Q&amp;A</a>
-    <!-- <a
+      <a
+        href="#qa"
+        class="mx-6"
+      >Q&amp;A</a>
+      <!-- <a
       href="#sponzori"
       class="mx-6"
     >Sponzoři</a> -->
-    <div class="font-semibold mr-8 ml-auto normal-case flex items-center text-purple-500 fill-current">
+    </div>
+    <div
+      class="font-semibold mr-8 md:ml-auto normal-case flex items-center text-green-100 md:text-purple-500 fill-current"
+    >
       <a
         href="//fb.com/klubinvestoru"
         target="_blank"
