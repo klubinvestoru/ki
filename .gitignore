@@ -1,3 +1,6 @@
 node_modules/
-node_modules
-node_modules/*
+
+
+packages/zazij/.nuxt
+packages/zazij/_nuxt
+packages/zazij/dist
