@@ -1,0 +1,22 @@
+{
+  "name": "zazij",
+  "version": "1.0.0",
+  "description": "Naborovy web",
+  "author": "Jakub Voráček",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "velocity-animate": "^1.5.2",
+    "vue-unicons": "^1.4.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^3.1.0",
+    "nodemon": "^1.18.9"
+  }
+}
