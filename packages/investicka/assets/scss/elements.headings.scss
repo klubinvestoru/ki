@@ -1,0 +1,60 @@
+@import "tools.mixins.scss";
+
+/* https://typecast.com/blog/a-more-modern-scale-for-web-typography */
+
+h1 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.125;
+
+  @include mq('tablet-small') {
+    font-size: 2.5rem;
+  }
+
+  @include mq('tablet-wide') {
+    // font-size: 3rem;
+    font-size: 4rem;
+  }
+}
+
+h2 {
+  line-height: 1.125;
+  font-size: 1.625rem;
+  font-weight: 500;
+
+  @include mq('tablet-small') {
+    font-size: 2rem;
+  }
+
+  @include mq('tablet-wide') {
+    font-size: 2.25rem;
+  }
+}
+
+h3 {
+  line-height: 1.125;
+  font-size: 1.375rem;
+  font-weight: 500;
+
+  @include mq('tablet-small') {
+    font-size: 1.5rem;
+  }
+
+  @include mq('tablet-wide') {
+    font-size: 1.75rem;
+  }
+}
+
+h4 {
+  line-height: 1.25;
+  font-size: 1.125rem;
+  font-weight: 500;
+
+  @include mq('tablet-small') {
+    font-size: 1.125rem;
+  }
+
+  @include mq('tablet-wide') {
+    font-size: 1.125rem;
+  }
+}

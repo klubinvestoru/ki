@@ -1,0 +1,54 @@
+/**
+    preset border radius
+
+    usage examples:
+        - @include border-radius()
+*/
+@mixin border-radius($radius:4px) {
+  border-radius: $radius;
+}
+
+
+/*
+  Box shadow
+
+  usage examples:
+      - @include box-shadow()
+*/
+
+@mixin box-shadow() {
+  box-shadow: 4px 0 4px 0 #EDEFF1;
+}
+
+
+/*
+    breakpoints for media queries
+*/
+$breakpoints: (
+"phone":        400px,
+"phone-wide":   480px,
+"phablet": 560px,
+"tablet-small": 640px,
+"tablet":       768px,
+"tablet-wide": 1025px,
+"desktop": 1248px,
+// "desktop-wide": 1440px
+);
+
+/*
+    makes media queries better; use `$breakpoints` keywords
+
+     usage example:
+        - @include mq("tablet-wide"){
+            // code for wider screens here
+        }
+*/
+@mixin mq($width) {
+  @if map_has_key($breakpoints, $width) {
+    $width: map_get($breakpoints, $width);
+
+    @media only screen and (min-width: $width) {
+      @content;
+    }
+  }
+}
