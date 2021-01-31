@@ -78,7 +78,7 @@
             class="h-full rounded-lg duration-300 hover:-mt-4 shadow-lg bg-white overflow-hidden block hover:shadow-xl trans"
           >
             <img
-              src="https://www.klubinvestoru.com/image/4262.jpeg"
+              src="https://www.klubinvestoru.com/image/4262-w400.jpeg"
               width="400"
               class="h-48 w-full object-cover"
               alt="sample image"
@@ -99,7 +99,7 @@
             class="h-full rounded-lg duration-300 hover:-mt-4 shadow-lg bg-white overflow-hidden block hover:shadow-xl trans"
           >
             <img
-              src="https://www.klubinvestoru.com/image/4260.jpeg"
+              src="https://www.klubinvestoru.com/image/4260-w400.jpeg"
               width="400"
               class="h-48 w-full object-cover"
               alt="sample image"
@@ -123,7 +123,7 @@
             class="h-full rounded-lg shadow-lg hover:-mt-4 bg-white overflow-hidden block hover:shadow-xl duration-300"
           >
             <img
-              src="https://www.klubinvestoru.com/image/4254.jpeg"
+              src="https://www.klubinvestoru.com/image/4254-w400.jpeg"
               width="400"
               class="h-48 w-full object-cover"
               alt="sample image"
