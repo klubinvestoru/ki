@@ -5,6 +5,7 @@
     "lerna": "^3.22.1"
   },
   "scripts": {
+    "web": "yarn workspace web nuxt",
     "zazij": "yarn workspace zazij nuxt"
   },
   "workspaces": [

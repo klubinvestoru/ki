@@ -27,12 +27,13 @@ export default {
   components: true,
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
-  buildModules: [
-  ],
+  buildModules: ['@nuxtjs/tailwindcss'],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: [
-  ],
+  modules: ['@nuxtjs/strapi'],
+  strapi: {
+    // Options
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
