@@ -1,10 +1,11 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
+  mode: 'spa', // todo
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: 'web',
+    title: 'Káičko',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -30,9 +31,14 @@ export default {
   buildModules: ['@nuxtjs/tailwindcss'],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/strapi'],
+  modules: ['@nuxtjs/google-fonts', '@nuxtjs/strapi'],
   strapi: {
     // Options
+  },
+  googleFonts: {
+    families: {
+      'Inter': [400, 500, 700],
+    }
   },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
