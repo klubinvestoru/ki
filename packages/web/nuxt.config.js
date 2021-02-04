@@ -34,6 +34,7 @@ export default {
   modules: ['@nuxtjs/google-fonts', '@nuxtjs/strapi'],
   strapi: {
     // Options
+    url: process.env.STRAPI_URL || 'https://strapi-core.it.klubinvestoru.com'
   },
   googleFonts: {
     families: {

@@ -52,10 +52,6 @@
             <button
               class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
             >Registrace na workshop
-              <unicon
-                name="facebook-messenger"
-                class="fill-current text-purple-200 ml-2"
-              />
             </button>
           </div>
         </div>
@@ -71,11 +67,11 @@
         Články
       </h3>
       <h2 class="text-4xl font-extrabold tracking-tight text-center">Je libo sneak peak posledních článků?</h2>
-      <div class="flex mt-12 justify-center">
+      <div class="grid grid-cols-3 mt-12 justify-center">
         <div class="max-w-sm px-5">
           <a
             href="#"
-            class="h-full rounded-lg duration-300 hover:-mt-4 shadow-lg bg-white overflow-hidden block hover:shadow-xl trans"
+            class="h-full rounded-lg duration-300 transform hover:-translate-y-4 shadow-lg bg-white overflow-hidden block hover:shadow-xl trans"
           >
             <img
               src="https://www.klubinvestoru.com/image/4262-w400.jpeg"
@@ -96,7 +92,7 @@
         <div class="max-w-sm px-5">
           <a
             href="#"
-            class="h-full rounded-lg duration-300 hover:-mt-4 shadow-lg bg-white overflow-hidden block hover:shadow-xl trans"
+            class="h-full rounded-lg duration-300 transform hover:-translate-y-4 shadow-lg bg-white overflow-hidden block hover:shadow-xl trans"
           >
             <img
               src="https://www.klubinvestoru.com/image/4260-w400.jpeg"
@@ -120,7 +116,7 @@
         <div class="max-w-sm px-5">
           <a
             href="#"
-            class="h-full rounded-lg shadow-lg hover:-mt-4 bg-white overflow-hidden block hover:shadow-xl duration-300"
+            class="h-full rounded-lg shadow-lg transform hover:-translate-y-4  bg-white overflow-hidden block hover:shadow-xl duration-300"
           >
             <img
               src="https://www.klubinvestoru.com/image/4254-w400.jpeg"
@@ -209,9 +205,24 @@
         </div>
       </div>
     </section>
+
+    {{ content }}
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      content: [],
+    };
+  },
+  async mounted() {
+    try {
+      this.content = await this.$strapi.find('homepage');
+    } catch (error) {
+      console.log(error);
+    }
+  },
+};
 </script>
