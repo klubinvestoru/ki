@@ -1,5 +1,6 @@
 <template>
   <div class="grid gap-32">
+    {{ content }}
     <section>
       <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
         <div class="md:w-5/12 mr-8">
@@ -205,8 +206,6 @@
         </div>
       </div>
     </section>
-
-    {{ content }}
   </div>
 </template>
 
@@ -217,12 +216,8 @@ export default {
       content: [],
     };
   },
-  async mounted() {
-    try {
-      this.content = await this.$strapi.find('homepage');
-    } catch (error) {
-      console.log(error);
-    }
+  async fetch() {
+    this.content = await this.$strapi.find("homepage");
   },
 };
 </script>
