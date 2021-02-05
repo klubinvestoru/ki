@@ -1,6 +1,5 @@
 <template>
   <div class="grid gap-32">
-    {{ content }}
     <section>
       <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
         <div class="md:w-5/12 mr-8">
@@ -206,6 +205,8 @@
         </div>
       </div>
     </section>
+
+    {{ content }}
   </div>
 </template>
 
