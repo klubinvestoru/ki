@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="bg-gray-100 py-6 sticky top-0 z-20">
+    <header class="py-6 sticky top-0 z-20 shadow-md bg-white">
       <div class="container flex items-center justify-between">
         <nuxt-link to="/">
           <img
@@ -11,12 +11,12 @@
         </nuxt-link>
 
         <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
-          <nuxt-link to="/clanky">Články</nuxt-link>
-          <a href="#"><strike>Události</strike></a>
-          <a href="#"><strike>Kariéra</strike></a>
-          <a href="#"><strike>Projekty</strike></a>
-          <a href="#"><strike>VIP</strike></a>
-          <a href="#"><strike>Partneři</strike></a>
+          <a href="/clanky">Články</a>
+          <a href="#">Události</a>
+          <a href="#">Kariéra</a>
+          <a href="#">Projekty</a>
+          <a href="#">VIP</a>
+          <a href="#">Partneři</a>
           <nuxt-link to="/o-nas">O klubu</nuxt-link>
         </nav>
       </div>

@@ -56,7 +56,7 @@
           </div>
         </div>
         <div class="w-2/12"></div>
-        <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
+        <div class="w-4/12 -ml-32 rounded-lg overflow-hidden shadow-lg">
           <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" />
         </div>
       </div>
@@ -205,8 +205,6 @@
         </div>
       </div>
     </section>
-
-    {{ content }}
   </div>
 </template>
 
@@ -217,6 +215,7 @@ export default {
       content: [],
     };
   },
+  layout: "d2",
   async fetch() {
     this.content = await this.$strapi.find("homepage");
   },
