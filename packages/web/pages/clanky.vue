@@ -63,7 +63,16 @@
       </div>
     </section>
 
+    <nuxt-link
+      v-for="(item, key) in content"
+      :key="key"
+      :to="`articles/${item.slug_cs}`"
+    >
+      Link
+    </nuxt-link>
+
     {{ content }}
+
   </div>
 </template>
 
@@ -76,7 +85,7 @@ export default {
   },
   layout: "list",
   async fetch() {
-    this.content = await this.$strapi.find("homepage");
+    this.content = await this.$strapi.find("articles");
   },
 };
 </script>
