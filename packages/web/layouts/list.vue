@@ -42,7 +42,7 @@
           <input
             type="text"
             placeholder="E-mailová adresa"
-            class="mt-10 rounded-md border-none"
+            class="mt-10 rounded-md border-none py-2 px-3"
           >
           <button class="mt-3 bg-blue-200 text-blue-900 px-4 py-2 rounded">Odebírat</button>
           <span class="mt-4 text-center text-xs font-medium">Žádný spam, slibujeme</span>

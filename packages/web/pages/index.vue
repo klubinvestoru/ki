@@ -67,7 +67,7 @@
         Články
       </h3>
       <h2 class="text-4xl font-extrabold tracking-tight text-center">Je libo sneak peak posledních článků?</h2>
-      <div class="grid grid-cols-3 mt-12 justify-center">
+      <div class="flex mt-12 justify-center">
         <div class="max-w-sm px-5">
           <a
             href="#"
