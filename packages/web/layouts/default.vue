@@ -11,13 +11,13 @@
         </nuxt-link>
 
         <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
+          <a href="#">Projekty</a>
+          <a href="#">Kariéra</a>
+          <a href="#">Partneři</a>
+          <a href="#">VIP</a>
           <nuxt-link to="/clanky">Články</nuxt-link>
-          <a href="#"><strike>Události</strike></a>
-          <a href="#"><strike>Kariéra</strike></a>
-          <a href="#"><strike>Projekty</strike></a>
-          <a href="#"><strike>VIP</strike></a>
-          <a href="#"><strike>Partneři</strike></a>
           <nuxt-link to="/o-nas">O klubu</nuxt-link>
+          <a href="#">Kontakt</a>
         </nav>
       </div>
     </header>

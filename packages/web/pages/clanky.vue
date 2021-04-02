@@ -24,6 +24,25 @@
         </a>
         <a
           href="#"
+          class="h-full rounded-lg duration-300 transform hover:-translate-y-4 shadow-lg bg-white overflow-hidden flex hover:shadow-xl trans"
+        >
+          <img
+            src="https://www.klubinvestoru.com/image/4262-w400.jpeg"
+            width="200"
+            class="h-full object-cover"
+            alt="sample image"
+          >
+          <div class="m-6">
+            <h3 class="text-xl font-semibold leading-tight line-clamp-2">Česká investiční konference opět představí
+              reálné akciové
+              tipy českých a zahraničních investorů</h3>
+            <p class="mt-4 text-gray-600">Největší konference o akciích konaná v České republice a označovaná
+              účastníky za Český akciový Woodstock se 8. - 10. listopadu uskuteční už po sedmé, opět v hotelu Pyramida
+              v Praze.</p>
+          </div>
+        </a>
+        <a
+          href="#"
           class="h-full rounded-lg duration-300 transform hover:-translate-y-4 shadow-lg bg-white overflow-hidden block hover:shadow-xl trans"
         >
           <img

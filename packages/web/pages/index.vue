@@ -3,7 +3,7 @@
     <section>
       <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
         <div class="md:w-5/12 mr-8">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Úžasný nadpis o tom, jak jsme skvělí.
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Vzdělání. Komunita. Praxe. Klub investorů
           </h1>
           <p class="mt-6 text-xl md:text-xl leading-snug">Klub investorů je studentská organizace, která vznikla v roce
             2007. V současné době má Klub investorů přes 50 aktivních členů v Česku a na Slovensku.</p>
@@ -42,10 +42,10 @@
       <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
       <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
         <div class="z-10 md:w-5/12 mx-8 md:ml-24">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Co takhle promo, třeba na Hájka?</h1>
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Je libo workshop od Honzy Hájka?</h1>
           <p class="mt-6 text-xl md:text-2xl leading-snug">
-            Je vám jasný, že kradu nějaký věci, co jsem udělal na Zažij, protože nemám inspiraci, vlohy pro design, ani
-            čas?
+            Není nad to učit se od nejlepších. Přihlaš se na unikátní workshop s Honzou Hájkem a posuň své
+            znalosti o krok dál.
           </p>
           <div class="flex flex-col items-center">
 
@@ -159,7 +159,7 @@
         <a
           href="#"
           class="text-lg font-medium text-red-800"
-        >Odkaz třeba rovnou na YT?</a>
+        >Více videí →</a>
       </div>
     </section>
 
@@ -186,15 +186,8 @@
         Newsletter
       </h3>
       <div class="w-full bg-green-600 text-green-50 rounded-xl shadow-2xl py-20 px-16">
-        <h2 class="text-4xl mb-8 font-extrabold tracking-tight text-center">S tou zelenou to fakt přeháním</h2>
-        <p class="max-w-4xl text-center mx-auto text-lg font-medium">Lorem ipsum dolor sit amet, consectetur adipisicing
-          elit. Quas
-          vel
-          amet,
-          officiis ducimus
-          neque culpa eos
-          odio, commodi quisquam praesentium fugiat voluptate corrupti animi dolor laboriosam optio perspiciatis. Ea,
-          provident!</p>
+        <h2 class="text-4xl mb-8 font-extrabold tracking-tight text-center">Buď stále v obraze</h2>
+        <p class="max-w-4xl text-center mx-auto text-lg font-medium">Pravidelně nepravidelná dávka událostí klubu, pracovních nabídek, nového obsahu od klubu, postřehů ze světa investic a mnoho dalšího. Přihlaš se k odběru ještě teď!</p>
         <div class="mt-12 flex items-baseline justify-center text-lg">
           <input
             type="text"
