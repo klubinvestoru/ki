@@ -1,6 +1,6 @@
 <template>
   <div class="grid gap-32">
-    <section>
+    <section class="container">
       <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
         <div class="md:w-5/12 mr-8">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Vzdělání. Komunita. Praxe. Klub investorů
@@ -17,7 +17,7 @@
       </div>
     </section>
 
-    <section
+    <!-- <section
       class="select-none grid grid-cols-4 gap-4 justify-center px-10 py-8 bg-white shadow-xl rounded-2xl max-w-5xl mx-auto"
     >
       <div class="flex flex-col items-center gap-4 border-r-2 border-gray-200 px-6">
@@ -36,33 +36,59 @@
         <span class="font-medium text-6xl text-gray-800">9</span>
         <span class="text-lg text-gray-600 font-semibold">Sufuzki</span>
       </div>
+    </section> -->
+    <section class="container">
+      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
+        Kde nás najdete
+      </h3>
+      <div
+        class="select-none grid grid-cols-3 gap-4 justify-center p-8 bg-white shadow-xl rounded-2xl max-w-5xl mx-auto"
+      >
+
+        <div
+          class="flex flex-col items-center gap-4 border-r-2 border-gray-200 relative"
+          v-for="(n, key) in 3"
+          :key="key"
+        >
+          <img
+            src="https://klubinvestoru.com/app/img/club_praha.png"
+            alt=""
+            class="absolute inset-0"
+          >
+          <span>Praha</span>
+        </div>
+      </div>
+
     </section>
 
-    <section class="text-green-100 relative">
-      <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
-      <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
-        <div class="z-10 md:w-5/12 mx-8 md:ml-24">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Je libo workshop od Honzy Hájka?</h1>
-          <p class="mt-6 text-xl md:text-2xl leading-snug">
-            Není nad to učit se od nejlepších. Přihlaš se na unikátní workshop s Honzou Hájkem a posuň své
-            znalosti o krok dál.
-          </p>
-          <div class="flex flex-col items-center">
+    <section class="container text-green-100">
+      <div class="relative mx-auto">
 
-            <button
-              class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
-            >Registrace na workshop
-            </button>
+        <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
+        <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
+          <div class="z-10 md:w-5/12 mx-8 md:ml-24">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Je libo workshop od Honzy Hájka?</h1>
+            <p class="mt-6 text-xl md:text-2xl leading-snug">
+              Není nad to učit se od nejlepších. Přihlaš se na unikátní workshop s Honzou Hájkem a posuň své
+              znalosti o krok dál.
+            </p>
+            <div class="flex flex-col items-center">
+
+              <button
+                class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
+              >Registrace na workshop
+              </button>
+            </div>
           </div>
-        </div>
-        <div class="w-2/12"></div>
-        <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
-          <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" />
+          <div class="w-2/12"></div>
+          <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
+            <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" />
+          </div>
         </div>
       </div>
     </section>
 
-    <section>
+    <section class="container">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Články
       </h3>
@@ -140,7 +166,7 @@
       </div>
     </section>
 
-    <section class="-mx-24 px-24 py-16 bg-gray-300">
+    <section class="py-16 bg-gray-300">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Videa
       </h3>
@@ -157,15 +183,16 @@
       ></iframe>
       <div class="flex justify-center mt-8">
         <a
-          href="#"
+          href="https://www.youtube.com/channel/UCOm7ceRVGPXVkDJ-WUSW8xA"
+          target="_blank"
           class="text-lg font-medium text-red-800"
         >Více videí →</a>
       </div>
     </section>
 
     <section class="text-green-50 relative">
-      <div class="bg-green-600 shadow-2xl absolute top-16 bottom-16 -left-24 -right-24"></div>
-      <div class="grid md:flex relative items-center w-full">
+      <div class="bg-green-600 shadow-2xl absolute top-16 bottom-16 left-0 right-0"></div>
+      <div class="grid md:flex relative items-center w-full container">
         <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl">
           <img src="jachym.jpg" />
         </div>
@@ -181,13 +208,15 @@
       </div>
     </section>
 
-    <section>
+    <section class="container">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Newsletter
       </h3>
       <div class="w-full bg-green-600 text-green-50 rounded-xl shadow-2xl py-20 px-16">
         <h2 class="text-4xl mb-8 font-extrabold tracking-tight text-center">Buď stále v obraze</h2>
-        <p class="max-w-4xl text-center mx-auto text-lg font-medium">Pravidelně nepravidelná dávka událostí klubu, pracovních nabídek, nového obsahu od klubu, postřehů ze světa investic a mnoho dalšího. Přihlaš se k odběru ještě teď!</p>
+        <p class="max-w-4xl text-center mx-auto text-lg font-medium">Pravidelně nepravidelná dávka událostí klubu,
+          pracovních nabídek, nového obsahu od klubu, postřehů ze světa investic a mnoho dalšího. Přihlaš se k odběru
+          ještě teď!</p>
         <div class="mt-12 flex items-baseline justify-center text-lg">
           <input
             type="text"
@@ -199,7 +228,49 @@
       </div>
     </section>
 
-    {{ content }}
+    <section class="container">
+      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
+        Partneři
+      </h3>
+      <div class="flex mt-12 justify-evenly">
+        <a
+          href="#"
+          class="w-32"
+        >
+          <img
+            src="https://klubinvestoru.com/image/4282.jpeg"
+            class="w-full"
+            alt="J&amp;T Klub investorů"
+          >
+        </a>
+        <a
+          href="#"
+          class="w-32"
+        >
+          <img
+            src="/jt.jpg"
+            class="w-full"
+            alt="J&amp;T Klub investorů"
+          >
+        </a>
+        <a
+          href="#"
+          class="w-32"
+        >
+          <img
+            src="/drfg.jpg"
+            class="w-full"
+            alt="J&amp;T Klub investorů"
+          >
+        </a>
+      </div>
+      <div class="flex justify-end mt-8">
+        <a
+          href="/partneri"
+          class="text-lg font-medium text-green-600"
+        >Více o partnerech →</a>
+      </div>
+    </section>
   </div>
 </template>
 

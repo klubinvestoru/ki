@@ -22,9 +22,7 @@
       </div>
     </header>
 
-    <div class="container">
-      <Nuxt />
-    </div>
+    <Nuxt />
 
     <footer class="mt-32 bg-gray-800 text-gray-200 flex justify-between items-center py-16">
       <div class="container flex justify-between">
