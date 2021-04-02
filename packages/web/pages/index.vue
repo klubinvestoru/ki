@@ -166,6 +166,39 @@
           <div class="w-2/12"></div>
           <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
             <iframe
+              src="https://open.spotify.com/embed-podcast/show/3sD6vQvnSZ8b3OWdX2MNK9"
+              width="100%"
+              height="232"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+            <!-- <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="container text-green-100">
+      <div class="relative mx-auto">
+
+        <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
+        <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
+          <div class="z-10 md:w-5/12 mx-8 md:ml-24">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Máme podcast!</h1>
+            <p class="mt-6 text-xl md:text-2xl leading-snug">
+              Tady něco může bejt
+            </p>
+            <div class="flex flex-col items-center">
+
+              <button
+                class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
+              >Koukni na podcast
+              </button>
+            </div>
+          </div>
+          <div class="w-2/12"></div>
+          <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
+            <iframe
               src="https://anchor.fm/tomassedlacek/embed/episodes/Cyclical-vs-Linear-Time---QA-CzechMate-esoop3"
               height="102px"
               width="400px"
