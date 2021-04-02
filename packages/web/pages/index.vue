@@ -41,22 +41,104 @@
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Kde nás najdete
       </h3>
-      <div
-        class="select-none grid grid-cols-3 gap-4 justify-center p-8 bg-white shadow-xl rounded-2xl max-w-5xl mx-auto"
-      >
-
-        <div
-          class="flex flex-col items-center gap-4 border-r-2 border-gray-200 relative"
-          v-for="(n, key) in 3"
-          :key="key"
+      <div class="select-none grid grid-cols-3 gap-4 justify-center p-8 max-w-5xl mx-auto">
+        <a
+          href="#"
+          class="flex flex-col items-center"
         >
-          <img
-            src="https://klubinvestoru.com/app/img/club_praha.png"
-            alt=""
-            class="absolute inset-0"
-          >
-          <span>Praha</span>
-        </div>
+          <div class="px-8">
+            <img
+              src="https://kongres-magazine.eu/wp-content/uploads/2017/07/Subventions-Prague-Charles-Bridge.jpg"
+              alt=""
+              class="shadow-2xl rounded-lg overflow-hidden"
+            >
+          </div>
+          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">Praha
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-col items-center"
+        >
+          <div class="px-8">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Liberty_Square%2C_Brno%2C_Czech_Republic_-_panoramio.jpg"
+              alt=""
+              class="shadow-2xl rounded-lg overflow-hidden"
+            >
+          </div>
+          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">Brno
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-col items-center"
+        >
+          <div class="px-8">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/03/ef/99/5a/add-a-caption.jpg"
+              alt=""
+              class="shadow-2xl rounded-lg overflow-hidden"
+            >
+          </div>
+          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">
+            Bratislava
+          </div>
+        </a>
+      </div>
+
+    </section>
+
+    <section class="container">
+      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
+        Události
+      </h3>
+      <h2 class="text-4xl font-extrabold tracking-tight text-center">Naše příští akce</h2>
+
+      <div class="select-none grid grid-cols-3 gap-4 justify-center p-8 max-w-5xl mx-auto">
+        <a
+          href="#"
+          class="flex flex-col items-center"
+        >
+          <div class="px-8">
+            <img
+              src="https://kongres-magazine.eu/wp-content/uploads/2017/07/Subventions-Prague-Charles-Bridge.jpg"
+              alt=""
+              class="shadow-2xl rounded-lg overflow-hidden"
+            >
+          </div>
+          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">Přednáška v Praze
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-col items-center"
+        >
+          <div class="px-8">
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Liberty_Square%2C_Brno%2C_Czech_Republic_-_panoramio.jpg"
+              alt=""
+              class="shadow-2xl rounded-lg overflow-hidden"
+            >
+          </div>
+          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">Nuda v Brně
+          </div>
+        </a>
+        <a
+          href="#"
+          class="flex flex-col items-center"
+        >
+          <div class="px-8">
+            <img
+              src="https://media-cdn.tripadvisor.com/media/photo-s/03/ef/99/5a/add-a-caption.jpg"
+              alt=""
+              class="shadow-2xl rounded-lg overflow-hidden"
+            >
+          </div>
+          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">
+            Workshop Bratislavě
+          </div>
+        </a>
       </div>
 
     </section>
@@ -204,6 +286,37 @@
           <p class="mt-4 text-xl text-green-100 font-medium">Andrej Chapelau, 2020</p>
           <p class="text-xl font-medium text-green-200">Hrdý nositel nejsložitějšího jména v klubu</p>
 
+        </div>
+      </div>
+    </section>
+
+    <section class="container">
+      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
+        Předsedové
+      </h3>
+      <div class="px-8">
+        <div class="flex flex-wrap -mx-16">
+          <v-person photo="jan.jpg">
+            <template #name>Jan Šereda</template>
+            <template #post>Předseda Klubu investorů</template>
+            <template #quote>Nějaký quote, pokud budete chtít.</template>
+          </v-person>
+          <v-person photo="patrik.jpg">
+            <template #name>Patrik Stranský</template>
+            <template #post>Předseda KI Brno</template>
+            <template #quote>Ľadová voda.</template>
+          </v-person>
+          <v-person photo="aleks.jpg">
+            <template #name>Alexej Szládicsek</template>
+            <template #post>Předseda KI Bratislava</template>
+            <template #quote>Fotky z LI, nebo jak? Chcete tam tenhle quote?</template>
+          </v-person>
+        </div>
+        <div class="flex justify-end mt-8">
+          <a
+            href="/partneri"
+            class="text-lg font-medium text-green-600"
+          >Více o předsedech →</a>
         </div>
       </div>
     </section>
