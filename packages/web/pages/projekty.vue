@@ -1,5 +1,5 @@
 <template>
-  <section class="grid gap-4 grid-cols-2">
+  <section class="grid gap-8 grid-cols-2">
     <v-card
       :to="`/event`"
       class="h-full"
