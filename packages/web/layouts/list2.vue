@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="py-6 sticky top-0 z-20 shadow-md bg-white">
+    <header class="bg-gray-100 py-6 sticky top-0 z-20">
       <div class="container flex items-center justify-between">
         <nuxt-link to="/">
           <img
@@ -11,19 +11,56 @@
         </nuxt-link>
 
         <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
-          <a href="/clanky">Články</a>
-          <a href="#">Události</a>
-          <a href="#">Kariéra</a>
-          <a href="#">Projekty</a>
-          <a href="#">VIP</a>
-          <a href="#">Partneři</a>
+          <nuxt-link to="/projekty">Projekty</nuxt-link>
+          <nuxt-link to="/kariera">Kariéra</nuxt-link>
+          <nuxt-link to="/partneri">Partneři</nuxt-link>
+          <nuxt-link to="/vip">VIP</nuxt-link>
+          <nuxt-link to="/clanky">Články</nuxt-link>
           <nuxt-link to="/o-nas">O klubu</nuxt-link>
+          <nuxt-link to="/kontakt">Kontakt</nuxt-link>
         </nav>
       </div>
     </header>
 
-    <div class="container">
-      <Nuxt />
+    <div class="container grid grid-cols-3 gap-12 pt-8">
+      <div class="col-span-2">
+        <Nuxt />
+      </div>
+      <div class="col-span-1">
+        <div class="bg-gray-700 text-gray-100 rounded-md py-8 px-6 flex flex-col shadow-xl">
+          <h3 class="text-3xl">KI Newsletta</h3>
+          <p class="mt-3 font-medium leading-5">Nepravidelná nálož - přednášky, události, pracovní pozice a jiné.</p>
+          <input
+            type="text"
+            placeholder="E-mailová adresa"
+            class="mt-10 rounded-md border-none py-2 px-3"
+          >
+          <button class="mt-3 bg-blue-200 text-blue-900 px-4 py-2 rounded">Odebírat</button>
+          <span class="mt-4 text-center text-xs font-medium">Žádný spam, slibujeme</span>
+        </div>
+
+        <div class="mt-12">
+          <h3>Hlavní partneři Klubu investorů (upravit):</h3>
+
+          <div class="grid gap-16 mt-8 w-60 mx-auto">
+            <img
+              src="/jt.jpg"
+              alt="J&amp;T Klub investorů"
+            >
+            <img
+              src="/drfg.jpg"
+              alt="J&amp;T Klub investorů"
+            >
+          </div>
+
+          <nuxt-link
+            to="/partneri"
+            class="text-sm font-medium block text-right mt-4"
+          >Více o našich partnerech →</nuxt-link>
+        </div>
+
+        <div class="mt-16 text-sm">podcast? o klubu? ještě něco?</div>
+      </div>
     </div>
 
     <footer class="mt-32 bg-gray-800 text-gray-200 flex justify-between items-center py-16">

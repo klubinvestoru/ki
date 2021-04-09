@@ -3,10 +3,15 @@
     <section class="container">
       <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
         <div class="md:w-5/12 mr-8">
-          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Vzdělání. Komunita. Praxe. Klub investorů
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Vzdělání.<br>Komunita.<br>Praxe.
           </h1>
           <p class="mt-6 text-xl md:text-xl leading-snug">Klub investorů je studentská organizace, která vznikla v roce
             2007. V současné době má Klub investorů přes 50 aktivních členů v Česku a na Slovensku.</p>
+          <a
+            target="_blank"
+            href="https://zazij.klubinvestoru.com"
+            class="rounded-xl mt-8 bg-green-700 text-green-100 shadow py-2 px-4 text-lg font-medium inline-flex items-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 transform "
+          >Chci být členem →</a>
         </div>
         <div class="ml-auto w-6/12 rounded-xl overflow-hidden shadow-lg">
           <img
@@ -62,7 +67,7 @@
         >
           <div class="px-8">
             <img
-              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Liberty_Square%2C_Brno%2C_Czech_Republic_-_panoramio.jpg"
+              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.3W6du7-bXiuKtiN37_GZqwHaHa%26pid%3DApi&f=1"
               alt=""
               class="shadow-2xl rounded-lg overflow-hidden"
             >
@@ -345,7 +350,7 @@
           <v-person photo="patrik.jpg">
             <template #name>Patrik Stranský</template>
             <template #post>Předseda KI Brno</template>
-            <template #quote>Ľadová voda.</template>
+            <template #quote>Ľadová voda. Behaviorální ekonomie. Búchaná.</template>
           </v-person>
           <v-person photo="aleks.jpg">
             <template #name>Alexej Szládicsek</template>

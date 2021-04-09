@@ -215,7 +215,6 @@ export default {
       content: [],
     };
   },
-  layout: "d2",
   async fetch() {
     this.content = await this.$strapi.find("homepage");
   },

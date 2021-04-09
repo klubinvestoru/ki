@@ -1,11 +1,11 @@
 <template>
-  <div class="flex items-center mt-10 w-1/2 px-8">
+  <div class="flex flex-col items-center mt-10 w-1/3 px-8">
     <img
-      class="h-48 w-48 flex-shrink-0 shadow-2xl rounded-lg overflow-hidden"
+      class="h-48 w-48 flex-shrink-0 shadow-2xl rounded-xl overflow-hidden"
       :src="photo"
       :alt="alt"
     />
-    <div class="bg-white py-6 px-6 shadow-md rounded-r flex-grow">
+    <div class="bg-white py-6 px-6 shadow-lg rounded-xl flex-grow w-full -mt-6">
       <div class="flex justify-between">
         <h4 class="text-lg font-bold">
           <slot name="name">Martin</slot>

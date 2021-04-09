@@ -14,7 +14,6 @@
             class="mt-2 mb-4 text-3xl text-center leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10"
           >
             {{ post.title_cs }}
-            {{ post}}
           </h1>
         </div>
         <div
@@ -41,9 +40,9 @@ export default {
     };
   },
   async fetch() {
-    this.post = await this.$strapi.find(
-      `articles?slug_cs=${this.$route.params.slug}`
-    );
+    this.post = (
+      await this.$strapi.find(`articles?slug_cs=${this.$route.params.slug}`)
+    )[0];
   },
   head() {
     return {
