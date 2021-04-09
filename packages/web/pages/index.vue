@@ -319,14 +319,14 @@
     </section>
 
     <section class="text-green-50 relative">
-           <!-- <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl">
+      <!-- <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl">
           <img src="jachym.jpg" /> -->
       <div class="bg-green-600 shadow-2xl absolute top-16 bottom-16 left-0 right-0"></div>
       <div class="grid md:flex relative items-center w-full container">
         <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl bg-white h-96 px-4 py-6">
           <img
             src="jt.jpg"
-            class="px-4"
+            class="px-8"
           />
           <div class="grid grid-cols-2 text-black mt-8">
             <div class="flex flex-col">
@@ -349,7 +349,7 @@
           <a
             target="_blank"
             href="https://zazij.klubinvestoru.com"
-            class="text-center mx-auto rounded-xl mt-8 bg-green-700 text-green-100 shadow py-2 px-4 text-lg font-medium block items-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 transform "
+            class="mt-8 text-center mx-auto rounded-xl bg-green-700 text-green-100 shadow py-2 px-4 text-lg font-medium block items-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 transform "
           >Prozkoumej nabídky →</a>
         </div>
         <div class="z-10 md:w-8/12 mx-8 md:ml-24">
