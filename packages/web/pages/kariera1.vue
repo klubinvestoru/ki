@@ -116,18 +116,94 @@
       </p>
     </div>
 
-    <div class="w-full bg-green-600 text-green-50 rounded-xl shadow-2xl py-12 px-8 mt-8">
+    <div class="w-full bg-white rounded-xl shadow-xl py-12 px-8 mt-8">
       <h2 class="text-3xl mb-4 font-extrabold tracking-tight text-center">Požádej o nabídku</h2>
-      <p class="max-w-4xl text-center mx-auto text-lg font-medium">Zadej svůj mail, budeme tě kontaktovat; zde můžeme
-        dát třeba form.</p>
-      <div class="mt-8 flex items-baseline justify-center text-lg">
-        <input
-          type="text"
-          class="w-96 rounded-l-xl py-3 px-4 shadow-xl text-green-900"
-        >
+
+      <div class="mt-8 grid gap-y-6 text-lg">
+        <div class="grid grid-cols-5 items-center">
+          <label
+            class="text-sm col-span-2"
+            for="email"
+          >E-mail</label>
+          <input
+            id="email"
+            type="text"
+            class="rounded col-span-3 w-full border-gray-300 shadow-sm"
+          >
+        </div>
+        <div class="grid grid-cols-5 items-center">
+          <label
+            class="text-sm col-span-2"
+            for="name"
+          >Jméno</label>
+          <input
+            id="name"
+            type="text"
+            class="rounded col-span-3 w-full border-gray-300 shadow-sm"
+          >
+        </div>
+        <div class="grid grid-cols-5 items-center">
+          <label
+            class="text-sm col-span-2"
+            for="uni"
+          >Škola</label>
+          <input
+            id="uni"
+            type="text"
+            class="rounded col-span-3 w-full border-gray-300 shadow-sm"
+          >
+        </div>
+        <div class="grid grid-cols-5 items-center">
+          <label
+            class="text-sm col-span-2"
+            for="yearsxp"
+          >Počet let zkušeností</label>
+          <input
+            id="yearsxp"
+            type="number"
+            class="rounded col-span-3 w-full border-gray-300 shadow-sm"
+          >
+        </div>
+        <div class="grid grid-cols-5 items-center">
+          <span class="text-sm col-span-2">Kariérní zájmy</span>
+          <span>dodat</span>
+        </div>
+        <div class="grid grid-cols-5 items-center">
+          <label
+            class="text-sm col-span-2"
+            for="linkedin"
+          >LinkedIn</label>
+          <div class="col-span-3 flex">
+            <div class="bg-gray-300 rounded-l text-gray-900 pl-3 pr-1 flex items-center shadow-sm">
+              <div class="text-sm">linkedin.com/in/</div>
+            </div>
+            <input
+              id="linkedin"
+              type="text"
+              class="rounded-r w-full border-l-0 border-gray-300 shadow-sm"
+            >
+          </div>
+        </div>
+        <div class="grid grid-cols-5 items-center">
+          <label
+            class="text-sm col-span-2"
+            for="cvcl"
+          >CV, CL</label>
+          <input
+            id="cvcl"
+            type="file"
+            class="text-sm rounded col-span-3 w-full border-gray-300 shadow-sm"
+          >
+        </div>
+
         <button
-          class="font-medium bg-purple-600 shadow-xl self-stretch px-8 text-purple-50 rounded-r-xl">Přihlásit</button>
+          class="mt-16 mx-auto font-medium bg-purple-600 shadow-xl self-stretch px-6 py-2 text-purple-50 rounded-xl"
+        >Podat
+          žádost</button>
       </div>
+      <div class="mt-2 text-xs font-medium w-72 text-center mx-auto">Vaše žádost poputuje dle našich podmínek (!) přes
+        nás přímo
+        firmě, do které podáváte žádost.</div>
     </div>
     <a href="/kariera2">kariera2</a>
   </section>
