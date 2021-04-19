@@ -1,7 +1,7 @@
 <template>
   <div>
     <header class="bg-gray-100 py-6 sticky top-0 z-20">
-      <div class="container flex items-center justify-between">
+      <div class="container mx-auto flex items-center justify-between">
         <nuxt-link to="/">
           <img
             src="/logo.png"

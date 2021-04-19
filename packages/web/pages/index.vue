@@ -1,12 +1,13 @@
 <template>
   <div class="grid gap-32">
-    <section class="container">
+    <section class="container mx-auto">
       <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
         <div class="md:w-5/12 mr-8">
           <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Vzdělání.<br>Komunita.<br>Praxe.
           </h1>
-          <p class="mt-6 text-xl md:text-xl leading-snug">Klub investorů je studentská organizace, která vznikla v roce
-            2007. V současné době má Klub investorů přes 50 aktivních členů v Česku a na Slovensku.</p>
+          <p class="mt-6 text-xl md:text-xl leading-snug">Dva státy, tři významná města, více jak desetiletá existence a
+            přes padesát aktivních členů se zájmem o svět investic a businessu. Spojením toho všeho vzniká
+            nevyčíslitelná hodnota v podobě pouze jedné unikátní studentské organizace - Klubu investorů!</p>
           <a
             target="_blank"
             href="https://zazij.klubinvestoru.com"
@@ -42,7 +43,7 @@
         <span class="text-lg text-gray-600 font-semibold">Sufuzki</span>
       </div>
     </section> -->
-    <section class="container">
+    <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Kde nás najdete
       </h3>
@@ -91,10 +92,45 @@
           </div>
         </a>
       </div>
-
     </section>
 
-    <section class="container">
+    <section class="container text-green-100">
+      <div class="relative mx-auto">
+
+        <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
+        <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
+          <div class="z-10 md:w-5/12 mx-8 md:ml-24">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">INVE-STORIES PODCAST</h1>
+            <p class="mt-6 text-xl md:text-2xl leading-snug">
+              Už Tě nebaví si nové informace ze světa investic, podnikání a businessu hledat v záplavě zdlouhavého
+              textu? Jsi spíš posluchač než čtenář? Tak nastraž uši, protože právě pro Tebe pravidelně vychází náš
+              vlastní investiční PODCAST!
+            </p>
+            <div class="flex flex-col items-center">
+
+              <button
+                class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
+              >Koukni na podcast
+              </button>
+            </div>
+          </div>
+          <div class="w-2/12"></div>
+          <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
+            <iframe
+              src="https://open.spotify.com/embed-podcast/show/3sD6vQvnSZ8b3OWdX2MNK9"
+              width="100%"
+              height="232"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+            <!-- <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" /> -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Události
       </h3>
@@ -150,73 +186,7 @@
 
     </section>
 
-    <section class="container text-green-100">
-      <div class="relative mx-auto">
-
-        <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
-        <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
-          <div class="z-10 md:w-5/12 mx-8 md:ml-24">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Máme podcast!</h1>
-            <p class="mt-6 text-xl md:text-2xl leading-snug">
-              Tady něco může bejt
-            </p>
-            <div class="flex flex-col items-center">
-
-              <button
-                class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
-              >Koukni na podcast
-              </button>
-            </div>
-          </div>
-          <div class="w-2/12"></div>
-          <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              src="https://open.spotify.com/embed-podcast/show/3sD6vQvnSZ8b3OWdX2MNK9"
-              width="100%"
-              height="232"
-              frameborder="0"
-              allowtransparency="true"
-              allow="encrypted-media"
-            ></iframe>
-            <!-- <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" /> -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <section class="container text-green-100">
-      <div class="relative mx-auto">
-
-        <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
-        <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
-          <div class="z-10 md:w-5/12 mx-8 md:ml-24">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Máme podcast!</h1>
-            <p class="mt-6 text-xl md:text-2xl leading-snug">
-              Tady něco může bejt
-            </p>
-            <div class="flex flex-col items-center">
-
-              <button
-                class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
-              >Koukni na podcast
-              </button>
-            </div>
-          </div>
-          <div class="w-2/12"></div>
-          <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              src="https://anchor.fm/tomassedlacek/embed/episodes/Cyclical-vs-Linear-Time---QA-CzechMate-esoop3"
-              height="102px"
-              width="400px"
-              frameborder="0"
-              scrolling="no"
-            ></iframe>
-            <!-- <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" /> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="container">
+    <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Články
       </h3>
@@ -354,17 +324,16 @@
         </div>
         <div class="z-10 md:w-8/12 mx-8 md:ml-24">
           <p class="mt-6 text-2xl md:text-3xl leading-snug font-medium max-w-2xl">
-            Proč nebýt v Klubu investorů, když můžete být v
-            Klubu investorů. ;)
+            Hľadáš si stáž? Podívej se na naši nabídku!
           </p>
-          <p class="mt-4 text-xl text-green-100 font-medium">Andrej Chapelau, 2020</p>
-          <p class="text-xl font-medium text-green-200">Hrdý nositel nejsložitějšího jména v klubu</p>
+          <!-- <p class="mt-4 text-xl text-green-100 font-medium">Andrej Chapelau, 2020</p>
+          <p class="text-xl font-medium text-green-200">Hrdý nositel nejsložitějšího jména v klubu</p> -->
 
         </div>
       </div>
     </section>
 
-    <section class="container">
+    <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Předsedové
       </h3>
@@ -372,18 +341,19 @@
         <div class="flex flex-wrap -mx-16">
           <v-person photo="jan.jpg">
             <template #name>Jan Šereda</template>
-            <template #post>Předseda Klubu investorů</template>
-            <template #quote>Nějaký quote, pokud budete chtít.</template>
+            <template #post>Předseda KI Praha</template>
+            <template #quote>Bez páky nezbohatneš.</template>
           </v-person>
           <v-person photo="patrik.jpg">
-            <template #name>Patrik Stranský</template>
+            <template #name>Patrik Stránsky</template>
             <template #post>Předseda KI Brno</template>
-            <template #quote>Ľadová voda. Behaviorální ekonomie. Búchaná.</template>
+            <template #quote>Aký máš názor na ekonómiu?</template>
           </v-person>
           <v-person photo="aleks.jpg">
             <template #name>Alexej Szládicsek</template>
             <template #post>Předseda KI Bratislava</template>
-            <template #quote>Fotky z LI, nebo jak? Chcete tam tenhle quote?</template>
+            <template #quote>Byť šťastný a úspešný neznamená robiť to, čo sa nám páči, ale obľúbiť si to, čo
+              robíme.</template>
           </v-person>
         </div>
         <div class="flex justify-end mt-8">
@@ -395,19 +365,20 @@
       </div>
     </section>
 
-    <section class="container">
+    <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Newsletter
       </h3>
       <div class="w-full bg-green-600 text-green-50 rounded-xl shadow-2xl py-20 px-16">
         <h2 class="text-4xl mb-8 font-extrabold tracking-tight text-center">Buď stále v obraze</h2>
-        <p class="max-w-4xl text-center mx-auto text-lg font-medium">Pravidelně nepravidelná dávka událostí klubu,
-          pracovních nabídek, nového obsahu od klubu, postřehů ze světa investic a mnoho dalšího. Přihlaš se k odběru
-          ještě teď!</p>
+        <p class="max-w-4xl text-center mx-auto text-lg font-medium">Nechceš si nechat ujít aktuální informace jak ze
+          světa investic a businessu, tak z dění v našem klubu? Ani bys neměl! My Ti to vše rádi poskytneme, a navíc
+          krátce a výstižně. Tak nečekej a přihlas se k odběru ještě dnes!</p>
         <div class="mt-12 flex items-baseline justify-center text-lg">
           <input
             type="text"
             class="w-96 rounded-l-xl py-3 px-4 shadow-xl text-green-900"
+            placeholder="E-mailová adresa"
           >
           <button
             class="font-medium bg-purple-600 shadow-xl self-stretch px-8 text-purple-50 rounded-r-xl">Přihlásit</button>
@@ -415,7 +386,7 @@
       </div>
     </section>
 
-    <section class="container">
+    <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Partneři
       </h3>
