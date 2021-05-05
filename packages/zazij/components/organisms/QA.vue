@@ -50,8 +50,8 @@
         <template v-slot:question>Podle čeho a jak vybíráte členy?</template>
         <template v-slot:answer>Jsme jedna velká parta, která dělá KI ve svém volném čase. Musíme si teda hlavně sednout
           lidsky a vidět nějakou tvoji motivaci. Motivovaný nováček s chutí se učit a posouvat klub dále je pro nás
-          cennější než zkušený matador, který se do chodu klubu zapojí minimálně. Výběrové řízení otevíráme zpravidla
-          začátkem semestru, ale napsat nám můžeš kdykoliv během roku.</template>
+          cennější n;ež zkušený matador, který se do chodu klubu zapojí minimálně. Výběrové řízení otevíráme zpravidla
+          začátkem semestru, ale napsat nám můžeš kdykoliv během roku. Nabíráme studenty VŠ.</template>
       </VQAitem>
       <VQAitem>
         <template v-slot:question>Kolik máte momentálně členů?</template>
@@ -66,9 +66,8 @@
       </VQAitem>
       <VQAitem>
         <template v-slot:question>Co děláte ve volném čase?</template>
-        <template v-slot:answer>Kromě loga a názvu to je naše společná vize a proaktivita. Řadu věcí si řeší jednotlivé
-          pobočky samostatně, ale některé projekty řešíme dohromady jako klub. Členy z ostatních poboček budeš moct
-          poznat na našich celoklubových večírcích a také každý semestr pořádáme legendární teambuilding.</template>
+        <template v-slot:answer>Většina našich členů je naprosto normální a tráví svůj volný čas sportováním, hraním
+          videoher nebo testováním, zda jistý mok založený na chmelu chutná v osm stejně jako v jedenáct.</template>
       </VQAitem>
       <VQAitem>
         <template v-slot:question>Kolik potřebuji šatů/košil?</template>
