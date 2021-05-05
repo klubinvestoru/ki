@@ -2,11 +2,8 @@
   <section class="container mx-auto">
     <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
       <div class="md:w-5/12 mr-8">
-        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Vzdělání.<br>Komunita.<br>Praxe.
-        </h1>
-        <p class="mt-6 text-xl md:text-xl leading-snug">Dva státy, tři významná města, více jak desetiletá existence a
-          přes padesát aktivních členů se zájmem o svět investic a businessu. Spojením toho všeho vzniká
-          nevyčíslitelná hodnota v podobě pouze jedné unikátní studentské organizace - Klubu investorů!</p>
+        <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">{{ content.title }}</h1>
+        <p class="mt-6 text-xl md:text-xl leading-snug">{{ content.description }}</p>
         <a
           target="_blank"
           href="https://zazij.klubinvestoru.com"

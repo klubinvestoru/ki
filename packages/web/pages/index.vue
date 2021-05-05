@@ -1,14 +1,11 @@
 <template>
   <div class="grid gap-32">
-
     <component
       v-for="(item, key) in content.Content"
       :key="key"
-      :is="`VMediaCombo`"
+      :is="getComponentName(item.__component)"
       :content="item"
     />
-
-    {{getComponentName(content.Content[0].__component) }}
 
     <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
@@ -403,7 +400,7 @@
 export default {
   async asyncData({ $strapi }) {
     const content = await $strapi.find("homepage");
-    console.log(content, "aaaa");
+    // console.log(content, "aaaa");
     return { content };
   },
 
