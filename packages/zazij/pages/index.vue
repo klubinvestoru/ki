@@ -7,7 +7,7 @@
     <VHero />
     <VKlub />
     <!-- <VLide /> -->
-    <VQa />
+    <VQA />
     <VSponzori />
     <VFooter />
   </div>
