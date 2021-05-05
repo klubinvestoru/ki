@@ -2,14 +2,56 @@
   <div class="grid gap-32">
 
     <component
-      v-for="(item, key) in content.Content"
-      :key="key"
-      :is="`VMediaCombo`"
-      :content="item"
-    />
+      :is="getComponentName(item.__component)"
+      v-for="item in content.Content"
+      :key="item.id"
+    >
+      {{getComponentName(item.__component)}}
+    </component>
 
-    {{getComponentName(content.Content[0].__component) }}
+    <section class="container mx-auto">
+      <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
+        <div class="md:w-5/12 mr-8">
+          <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">Vzdělání.<br>Komunita.<br>Praxe.
+          </h1>
+          <p class="mt-6 text-xl md:text-xl leading-snug">Dva státy, tři významná města, více jak desetiletá existence a
+            přes padesát aktivních členů se zájmem o svět investic a businessu. Spojením toho všeho vzniká
+            nevyčíslitelná hodnota v podobě pouze jedné unikátní studentské organizace - Klubu investorů!</p>
+          <a
+            target="_blank"
+            href="https://zazij.klubinvestoru.com"
+            class="rounded-xl mt-8 bg-green-700 text-green-100 shadow py-2 px-4 text-lg font-medium inline-flex items-center hover:shadow-2xl transition-all duration-300 hover:-translate-y-1 transform "
+          >Chci být členem →</a>
+        </div>
+        <div class="ml-auto w-6/12 rounded-xl overflow-hidden shadow-lg">
+          <img
+            class=""
+            src="https://res.cloudinary.com/ki/image/upload/q_auto:eco,c_fill,g_custom,w_1280/nabor/prednaska"
+          />
+        </div>
+      </div>
+    </section>
 
+    <!-- <section
+      class="select-none grid grid-cols-4 gap-4 justify-center px-10 py-8 bg-white shadow-xl rounded-2xl max-w-5xl mx-auto"
+    >
+      <div class="flex flex-col items-center gap-4 border-r-2 border-gray-200 px-6">
+        <span class="font-medium text-6xl text-gray-800">3</span>
+        <span class="text-lg text-gray-600 font-semibold">Praha, Brno, Blava</span>
+      </div>
+      <div class="flex flex-col items-center gap-4 border-r-2 border-gray-200 px-6">
+        <span class="font-medium text-6xl text-gray-800">&gt;2k</span>
+        <span class="text-lg text-gray-600 font-semibold">Členů newsletteru</span>
+      </div>
+      <div class="flex flex-col items-center gap-4 border-r-2 border-gray-200 px-6">
+        <span class="font-medium text-6xl text-gray-800">±50</span>
+        <span class="text-lg text-gray-600 font-semibold">Aktivních členů</span>
+      </div>
+      <div class="flex flex-col items-center gap-4 px-6">
+        <span class="font-medium text-6xl text-gray-800">9</span>
+        <span class="text-lg text-gray-600 font-semibold">Sufuzki</span>
+      </div>
+    </section> -->
     <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Kde nás najdete
@@ -403,14 +445,7 @@
 export default {
   async asyncData({ $strapi }) {
     const content = await $strapi.find("homepage");
-    console.log(content, "aaaa");
     return { content };
-  },
-
-  data() {
-    return {
-      content: {},
-    };
   },
 
   methods: {

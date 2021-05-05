@@ -10,10 +10,10 @@
         <h4 class="text-lg font-bold">
           <slot name="name">Martin</slot>
         </h4>
-        <unicon
+        <!-- <unicon
           name="linkedin"
           class="flex-shrink-0"
-        />
+        /> -->
       </div>
       <h5 class="mb-4 text-green-600 uppercase tracking-wider text-sm font-semibold flex">
         <slot name="post">Předseda</slot>
