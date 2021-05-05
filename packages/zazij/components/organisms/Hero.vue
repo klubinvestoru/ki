@@ -25,7 +25,7 @@
             </button>
           </a>
           <a
-            href="mailto:martin.hrdy@klubinvestoru.com"
+            href="mailto:jan.pauch@klubinvestoru.com"
             class="mt-2 text-green-200 hover:underline"
           >Raději pošlu mail.</a>
         </div>
