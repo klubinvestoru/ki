@@ -74,7 +74,7 @@
             </li>
             <li>
               <a
-                href="http://youtube.com/klubinvestoru"
+                href="https://www.youtube.com/channel/UCOm7ceRVGPXVkDJ-WUSW8xA"
                 target="_blank"
                 rel="noopener noreferrer"
                 class="h-8 w-8 inline-flex"
