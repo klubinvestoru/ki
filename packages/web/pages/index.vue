@@ -7,56 +7,7 @@
       :content="item"
     />
 
-    <section class="container mx-auto">
-      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
-        Kde nás najdete
-      </h3>
-      <div class="select-none grid grid-cols-3 gap-4 justify-center p-8 max-w-5xl mx-auto">
-        <a
-          href="#"
-          class="flex flex-col items-center"
-        >
-          <div class="px-8">
-            <img
-              src="https://kongres-magazine.eu/wp-content/uploads/2017/07/Subventions-Prague-Charles-Bridge.jpg"
-              alt=""
-              class="shadow-2xl rounded-lg overflow-hidden"
-            >
-          </div>
-          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">Praha
-          </div>
-        </a>
-        <a
-          href="#"
-          class="flex flex-col items-center"
-        >
-          <div class="px-8">
-            <img
-              src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%3Fid%3DOIP.3W6du7-bXiuKtiN37_GZqwHaHa%26pid%3DApi&f=1"
-              alt=""
-              class="shadow-2xl rounded-lg overflow-hidden"
-            >
-          </div>
-          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">Brno
-          </div>
-        </a>
-        <a
-          href="#"
-          class="flex flex-col items-center"
-        >
-          <div class="px-8">
-            <img
-              src="https://media-cdn.tripadvisor.com/media/photo-s/03/ef/99/5a/add-a-caption.jpg"
-              alt=""
-              class="shadow-2xl rounded-lg overflow-hidden"
-            >
-          </div>
-          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">
-            Bratislava
-          </div>
-        </a>
-      </div>
-    </section>
+    {{ content.Content }}
 
     <section class="container text-green-100">
       <div class="relative mx-auto">
@@ -92,62 +43,6 @@
           </div>
         </div>
       </div>
-    </section>
-
-    <section class="container mx-auto">
-      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
-        Události
-      </h3>
-      <h2 class="text-4xl font-extrabold tracking-tight text-center">Naše příští akce</h2>
-
-      <div class="select-none grid grid-cols-3 gap-4 justify-center p-8 max-w-5xl mx-auto">
-        <a
-          href="#"
-          class="flex flex-col items-center"
-        >
-          <div class="px-8">
-            <img
-              src="https://kongres-magazine.eu/wp-content/uploads/2017/07/Subventions-Prague-Charles-Bridge.jpg"
-              alt=""
-              class="shadow-2xl rounded-lg overflow-hidden"
-            >
-          </div>
-          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">
-            Přednáška v Praze
-          </div>
-        </a>
-        <a
-          href="#"
-          class="flex flex-col items-center"
-        >
-          <div class="px-8">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/9/91/Liberty_Square%2C_Brno%2C_Czech_Republic_-_panoramio.jpg"
-              alt=""
-              class="shadow-2xl rounded-lg overflow-hidden"
-            >
-          </div>
-          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">Nuda v
-            Brně
-          </div>
-        </a>
-        <a
-          href="#"
-          class="flex flex-col items-center"
-        >
-          <div class="px-8">
-            <img
-              src="https://media-cdn.tripadvisor.com/media/photo-s/03/ef/99/5a/add-a-caption.jpg"
-              alt=""
-              class="shadow-2xl rounded-lg overflow-hidden"
-            >
-          </div>
-          <div class="-mt-10 -mx-6 bg-white shadow-lg rounded-2xl w-full font-semibold py-4 text-lg text-center">
-            Workshop Bratislavě
-          </div>
-        </a>
-      </div>
-
     </section>
 
     <section class="container mx-auto">
@@ -225,30 +120,6 @@
           href="/clanky"
           class="text-lg font-medium text-green-600"
         >Všechny články →</a>
-      </div>
-    </section>
-
-    <section class="py-16 bg-gray-300">
-      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
-        Videa
-      </h3>
-      <h2 class="text-4xl font-extrabold tracking-tight text-center">Online content</h2>
-
-      <iframe
-        width="728"
-        height="410"
-        class="mx-auto mt-12 rounded-xl shadow-xl"
-        src="https://www.youtube.com/embed/YC5DDXF7FBQ"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-      ></iframe>
-      <div class="flex justify-center mt-8">
-        <a
-          href="https://www.youtube.com/channel/UCOm7ceRVGPXVkDJ-WUSW8xA"
-          target="_blank"
-          class="text-lg font-medium text-red-800"
-        >Více videí →</a>
       </div>
     </section>
 
@@ -331,27 +202,6 @@
 
     <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
-        Newsletter
-      </h3>
-      <div class="w-full bg-green-600 text-green-50 rounded-xl shadow-2xl py-20 px-16">
-        <h2 class="text-4xl mb-8 font-extrabold tracking-tight text-center">Buď stále v obraze</h2>
-        <p class="max-w-4xl text-center mx-auto text-lg font-medium">Nechceš si nechat ujít aktuální informace jak ze
-          světa investic a businessu, tak z dění v našem klubu? Ani bys neměl! My Ti to vše rádi poskytneme, a navíc
-          krátce a výstižně. Tak nečekej a přihlas se k odběru ještě dnes!</p>
-        <div class="mt-12 flex items-baseline justify-center text-lg">
-          <input
-            type="text"
-            class="w-96 rounded-l-xl py-3 px-4 shadow-xl text-green-900"
-            placeholder="E-mailová adresa"
-          >
-          <button
-            class="font-medium bg-purple-600 shadow-xl self-stretch px-8 text-purple-50 rounded-r-xl">Přihlásit</button>
-        </div>
-      </div>
-    </section>
-
-    <section class="container mx-auto">
-      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Partneři
       </h3>
       <div class="flex mt-12 justify-evenly">
@@ -400,7 +250,6 @@
 export default {
   async asyncData({ $strapi }) {
     const content = await $strapi.find("homepage");
-    // console.log(content, "aaaa");
     return { content };
   },
 
