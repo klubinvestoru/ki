@@ -1,7 +1,7 @@
 <template>
   <div class="grid gap-32">
     <component
-      v-for="(item, key) in content.Content"
+      v-for="(item, key) in content.content"
       :key="key"
       :is="getComponentName(item.__component)"
       :content="item"
