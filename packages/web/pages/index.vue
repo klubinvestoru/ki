@@ -9,7 +9,7 @@
 
     <!-- {{ content.Content }} -->
 
-    <section class="container text-green-100">
+    <section class="container text-green-100 mx-auto">
       <div class="relative mx-auto">
 
         <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
