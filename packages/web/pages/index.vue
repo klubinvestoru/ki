@@ -1,13 +1,13 @@
 <template>
   <div class="grid gap-32">
     <component
-      v-for="(item, key) in content.Content"
+      v-for="(item, key) in content.content"
       :key="key"
       :is="getComponentName(item.__component)"
       :content="item"
     />
 
-    {{ content.Content }}
+    <!-- {{ content.Content }} -->
 
     <section class="container text-green-100">
       <div class="relative mx-auto">
@@ -249,7 +249,7 @@
 <script>
 export default {
   async asyncData({ $strapi }) {
-    const content = await $strapi.find("homepage");
+    const content = await $strapi.find("home");
     return { content };
   },
 
