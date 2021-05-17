@@ -7,44 +7,6 @@
       :content="item"
     />
 
-    <!-- {{ content.Content }} -->
-
-    <section class="container text-green-100 mx-auto">
-      <div class="relative mx-auto">
-
-        <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
-        <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
-          <div class="z-10 md:w-5/12 mx-8 md:ml-24">
-            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">INVE-STORIES PODCAST</h1>
-            <p class="mt-6 text-xl md:text-2xl leading-snug">
-              Už Tě nebaví si nové informace ze světa investic, podnikání a businessu hledat v záplavě zdlouhavého
-              textu? Jsi spíš posluchač než čtenář? Tak nastraž uši, protože právě pro Tebe pravidelně vychází náš
-              vlastní investiční PODCAST!
-            </p>
-            <div class="flex flex-col items-center">
-
-              <button
-                class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
-              >Koukni na podcast
-              </button>
-            </div>
-          </div>
-          <div class="w-2/12"></div>
-          <div class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg">
-            <iframe
-              src="https://open.spotify.com/embed-podcast/show/3sD6vQvnSZ8b3OWdX2MNK9"
-              width="100%"
-              height="232"
-              frameborder="0"
-              allowtransparency="true"
-              allow="encrypted-media"
-            ></iframe>
-            <!-- <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" /> -->
-          </div>
-        </div>
-      </div>
-    </section>
-
     <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Články
@@ -120,6 +82,24 @@
           href="/clanky"
           class="text-lg font-medium text-green-600"
         >Všechny články →</a>
+      </div>
+    </section>
+
+    <section class="text-green-50 relative">
+      <div class="bg-green-600 shadow-2xl absolute top-16 bottom-16 -left-24 -right-24"></div>
+      <div class="grid md:flex relative items-center w-full container">
+        <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl">
+          <img src="jachym.jpg" />
+        </div>
+        <div class="z-10 md:w-8/12 mx-8 md:ml-24">
+          <p class="mt-6 text-2xl md:text-3xl leading-snug font-medium max-w-2xl">
+            Proč nebýt v Klubu investorů, když můžete být v
+            Klubu investorů. ;)
+          </p>
+          <p class="mt-4 text-xl text-green-100 font-medium">Andrej Chapelau, 2020</p>
+          <p class="text-xl font-medium text-green-200">Hrdý nositel nejsložitějšího jména v klubu</p>
+
+        </div>
       </div>
     </section>
 
