@@ -13,12 +13,13 @@
     >
       <a
         href="#"
-        class="flex flex-col rounded-2xl justify-center items-center group transition-all "
+        class="flex flex-col rounded-2xl justify-center items-center group transition-all"
         v-for="item in content.simpleGridItem"
         :key="item.id"
       >
         <img
-          src="https://kongres-magazine.eu/wp-content/uploads/2017/07/Subventions-Prague-Charles-Bridge.jpg"
+          v-if="item.image"
+          :src="`https://strapi-core.it.klubinvestoru.com${item.image.formats.medium.url}`"
           alt=""
           class="shadow-lg rounded-lg hover:shadow-xl duration-300"
         >

@@ -11,13 +11,13 @@
         </nuxt-link>
 
         <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
-          <nuxt-link to="/projekty">Projekty</nuxt-link>
-          <nuxt-link to="/kariera">Kariéra</nuxt-link>
-          <nuxt-link to="/partneri">Partneři</nuxt-link>
-          <nuxt-link to="/vip">VIP</nuxt-link>
-          <nuxt-link to="/clanky">Články</nuxt-link>
-          <nuxt-link to="/o-nas">O klubu</nuxt-link>
-          <nuxt-link to="/kontakt">Kontakt</nuxt-link>
+          <nuxt-link to="https://klubinvestoru.com/cs/udalosti">Projekty</nuxt-link>
+          <nuxt-link to="https://klubinvestoru.com/cs/kariera">Kariéra</nuxt-link>
+          <nuxt-link to="https://klubinvestoru.com/cs/27-partneri">Partneři</nuxt-link>
+          <!-- <nuxt-link to="/vip">VIP</nuxt-link> -->
+          <nuxt-link to="https://klubinvestoru.com/cs/clanky">Články</nuxt-link>
+          <nuxt-link to="https://klubinvestoru.com/cs/o-klubu">O klubu</nuxt-link>
+          <!-- <nuxt-link to="https://klubinvestoru.com/cs/o-klubu">Kontakt</nuxt-link> -->
         </nav>
       </div>
     </header>

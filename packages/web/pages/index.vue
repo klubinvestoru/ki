@@ -6,7 +6,7 @@
       :is="getComponentName(item.__component)"
       :content="item"
     />
-
+    <!--
     <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Články
@@ -83,11 +83,11 @@
           class="text-lg font-medium text-green-600"
         >Všechny články →</a>
       </div>
-    </section>
+    </section> -->
 
-    <section class="text-green-50 relative">
-      <div class="bg-green-600 shadow-2xl absolute top-16 bottom-16 -left-24 -right-24"></div>
-      <div class="grid md:flex relative items-center w-full container">
+    <!-- <section class="text-green-100 relative">
+      <div class="bg-red-500 shadow-2xl top-0 bottom-16 -left-24 -right-24 absolute"></div>
+      <div class="grid md:flex items-center w-full relative container">
         <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl">
           <img src="jachym.jpg" />
         </div>
@@ -98,14 +98,13 @@
           </p>
           <p class="mt-4 text-xl text-green-100 font-medium">Andrej Chapelau, 2020</p>
           <p class="text-xl font-medium text-green-200">Hrdý nositel nejsložitějšího jména v klubu</p>
-
         </div>
       </div>
     </section>
 
     <section class="text-green-50 relative">
-      <!-- <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl">
-          <img src="jachym.jpg" /> -->
+      <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl">
+          <img src="jachym.jpg" />
       <div class="bg-green-600 shadow-2xl absolute top-16 bottom-16 left-0 right-0"></div>
       <div class="grid md:flex relative items-center w-full container">
         <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl bg-white h-96 px-4 py-6">
@@ -141,12 +140,12 @@
           <p class="mt-6 text-2xl md:text-3xl leading-snug font-medium max-w-2xl">
             Hľadáš si stáž? Podívej se na naši nabídku!
           </p>
-          <!-- <p class="mt-4 text-xl text-green-100 font-medium">Andrej Chapelau, 2020</p>
-          <p class="text-xl font-medium text-green-200">Hrdý nositel nejsložitějšího jména v klubu</p> -->
+          <p class="mt-4 text-xl text-green-100 font-medium">Andrej Chapelau, 2020</p>
+          <p class="text-xl font-medium text-green-200">Hrdý nositel nejsložitějšího jména v klubu</p>
 
-        </div>
-      </div>
-    </section>
+  </div>
+  </div>
+  </section> -->
 
     <section class="container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
@@ -171,12 +170,12 @@
               robíme.</template>
           </v-person>
         </div>
-        <div class="flex justify-end mt-8">
+        <!-- <div class="flex justify-end mt-8">
           <a
             href="/partneri"
             class="text-lg font-medium text-green-600"
           >Více o předsedech →</a>
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -218,7 +217,7 @@
       </div>
       <div class="flex justify-end mt-8">
         <a
-          href="/partneri"
+          href="https://klubinvestoru.com/cs/27-partneri"
           class="text-lg font-medium text-green-600"
         >Více o partnerech →</a>
       </div>
