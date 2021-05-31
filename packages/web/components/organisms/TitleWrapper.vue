@@ -4,12 +4,11 @@
       {{ content.subtitle }}
     </h3>
     <h2 class="text-4xl font-extrabold tracking-tight text-center">{{ content.title }}</h2>
-
     <iframe
       width="728"
       height="410"
       class="mx-auto mt-12 rounded-xl shadow-xl"
-      src="https://www.youtube.com/embed/YC5DDXF7FBQ"
+      :src="`https://www.youtube.com/embed/${content.link}`"
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen
