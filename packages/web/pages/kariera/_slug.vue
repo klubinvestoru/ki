@@ -4,11 +4,16 @@
       <h2>
         {{ post.Title }}
       </h2>
+      <h3>
+        {{ post.company }} {{ post.City && `- ${post.City}` }}
+      </h3>
+      <h4>{{ post.Fulltime && 'Full-time' }}</h4>
+      <h4>{{ post.Partime && 'Part-time' }}</h4>
 
-      <div v-html="$md.render(post.Content)"></div>
+      <div v-html="getContent"></div>
     </div>
 
-    <div class="w-full bg-white rounded-xl shadow-xl py-12 px-8 mt-8">
+    <!-- <div class="w-full bg-white rounded-xl shadow-xl py-12 px-8 mt-8">
       <h2 class="text-3xl mb-4 font-extrabold tracking-tight text-center">Požádej o nabídku</h2>
 
       <div class="mt-8 grid gap-y-6 text-lg">
@@ -89,14 +94,15 @@
         </div>
 
         <button
-          class="mt-16 mx-auto font-medium bg-purple-600 shadow-xl self-stretch px-6 py-2 text-purple-50 rounded-xl"
+          class="mt-16 mx-auto font-medium bg-purple-300 text-purple-900 transition-all hover:bg-purple-400 duration-300 shadow-lg hover:shadow-xl self-stretch px-6 py-2 text-purple-50 rounded-xl"
         >Podat
           žádost</button>
       </div>
-      <div class="mt-2 text-xs font-medium w-72 text-center mx-auto">Vaše žádost poputuje dle našich podmínek (!) přes
-        nás přímo
-        firmě, do které podáváte žádost.</div>
-    </div>
+      <div class="text-gray-700 mt-3 text-xs font-medium w-72 text-center mx-auto w-56">Vaše žádost poputuje přes nás
+        přímo firmě,
+        do které
+        podáváte žádost.</div>
+    </div> -->
   </section>
 </template>
 
@@ -112,6 +118,11 @@ export default {
     this.post = (
       await this.$strapi.find(`jobs?slug=${this.$route.params.slug}`)
     )[0];
+  },
+  computed: {
+    getContent() {
+      return this.$md.render(this.post?.Content || "");
+    },
   },
   head() {
     return {

@@ -9,7 +9,7 @@
       <div class="m-6">
         <h3 class="text-xl font-semibold leading-tight line-clamp-2">{{ job.Title }}</h3>
         <div class="mt-2 text-gray-600">
-          <span class="jobs-company">{{ job.Company }}</span>
+          <span class="jobs-company">{{ job.company }}</span>
           <span
             class="jobs-city"
             v-if="job.City"
