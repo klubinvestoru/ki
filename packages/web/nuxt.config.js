@@ -43,7 +43,7 @@ export default {
   },
   markdownit: {
     runtime: true // Support `$md()`
-  }
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
