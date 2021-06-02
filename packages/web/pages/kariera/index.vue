@@ -4,7 +4,7 @@
       :to="`/kariera/${job.slug}`"
       v-for="job in content"
       :key="job.id"
-      class="h-24 w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden flex items-center hover:shadow-lg"
+      class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden flex items-center hover:shadow-lg"
     >
       <div class="m-6">
         <h3 class="text-xl font-semibold leading-tight line-clamp-2">{{ job.Title }}</h3>
