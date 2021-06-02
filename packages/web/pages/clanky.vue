@@ -102,7 +102,7 @@ export default {
       content: [],
     };
   },
-  layout: "list",
+  layout: "list-articles",
   async fetch() {
     this.content = await this.$strapi.find("articles");
   },

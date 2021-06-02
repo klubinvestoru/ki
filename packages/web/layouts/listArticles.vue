@@ -1,7 +1,7 @@
 <template>
   <div>
-    <header class="bg-gray-100 py-6 sticky top-0 z-20">
-      <div class="container flex items-center justify-between">
+    <header class="py-6 sticky top-0 z-20 shadow-md bg-white">
+      <div class="container flex items-center justify-between border-b border-gray-200 pb-6">
         <nuxt-link to="/">
           <img
             src="/logo.png"
@@ -20,14 +20,23 @@
           <nuxt-link to="/kontakt">Kontakt</nuxt-link>
         </nav>
       </div>
+      <div class="container mt-6 -mb-6 text-xs text-gray-600 font-medium tracking-wide">
+        <ul class="flex gap-5">
+          <li class="pb-6 border-b-2 border-gray-500 text-gray-800">Škola investování</li>
+          <li>Z přednášek</li>
+          <li>Škola tradera</li>
+          <li>Investiční konference</li>
+          <li>Tvoje máma</li>
+        </ul>
+      </div>
     </header>
 
-    <div class="container grid grid-cols-3 gap-12 pt-8">
+    <div class="container grid grid-cols-3 gap-12 pt-8 md:pt-16">
       <div class="col-span-2">
         <Nuxt />
       </div>
       <div class="col-span-1">
-        <div class="bg-gray-700 text-gray-100 rounded-md py-8 px-6 flex flex-col shadow-xl">
+        <!-- <div class="bg-gray-700 text-gray-100 rounded-md py-8 px-6 flex flex-col shadow-xl">
           <h3 class="text-3xl">KI Newsletta</h3>
           <p class="mt-3 font-medium leading-5">Nepravidelná nálož - přednášky, události, pracovní pozice a jiné.</p>
           <input
@@ -37,10 +46,10 @@
           >
           <button class="mt-3 bg-blue-200 text-blue-900 px-4 py-2 rounded">Odebírat</button>
           <span class="mt-4 text-center text-xs font-medium">Žádný spam, slibujeme</span>
-        </div>
-
+        </div> -->
+        <!-- edit: -->
         <div class="mt-12">
-          <h3>Hlavní partneři Klubu investorů (upravit):</h3>
+          <h3>Hlavní partneři Klubu investorů :</h3>
 
           <div class="grid gap-16 mt-8 w-60 mx-auto">
             <img
@@ -59,7 +68,7 @@
           >Více o našich partnerech →</nuxt-link>
         </div>
 
-        <div class="mt-16 text-sm">podcast? o klubu? ještě něco?</div>
+        <!-- <div class="mt-16 text-sm">podcast? o klubu? ještě něco?</div> -->
       </div>
     </div>
 

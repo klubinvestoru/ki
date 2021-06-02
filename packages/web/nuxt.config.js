@@ -31,7 +31,7 @@ export default {
   buildModules: ['@nuxtjs/tailwindcss'],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
-  modules: ['@nuxtjs/google-fonts', '@nuxtjs/strapi'],
+  modules: ['@nuxtjs/google-fonts', '@nuxtjs/strapi', '@nuxtjs/markdownit'],
   strapi: {
     // Options
     url: process.env.STRAPI_URL || 'https://strapi-core.it.klubinvestoru.com'
@@ -41,6 +41,9 @@ export default {
       'Inter': [400, 500, 700],
     }
   },
+  markdownit: {
+    runtime: true // Support `$md()`
+  }
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
