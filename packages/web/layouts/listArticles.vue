@@ -1,7 +1,7 @@
 <template>
   <div>
-    <header class="py-6 sticky top-0 z-20 shadow-md bg-white">
-      <div class="container flex items-center justify-between border-b border-gray-200 pb-6">
+    <header class="bg-gray-100 py-6 sticky top-0 z-20">
+      <div class="container mx-auto flex items-center justify-between">
         <nuxt-link to="/">
           <img
             src="/logo.png"
@@ -11,23 +11,14 @@
         </nuxt-link>
 
         <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
-          <nuxt-link to="/projekty">Projekty</nuxt-link>
+          <!-- <nuxt-link to="/projekty">Projekty</nuxt-link> -->
           <nuxt-link to="/kariera">Kariéra</nuxt-link>
           <nuxt-link to="/partneri">Partneři</nuxt-link>
-          <nuxt-link to="/vip">VIP</nuxt-link>
-          <nuxt-link to="/clanky">Články</nuxt-link>
-          <nuxt-link to="/o-nas">O klubu</nuxt-link>
-          <nuxt-link to="/kontakt">Kontakt</nuxt-link>
+          <!-- <nuxt-link to="/vip">VIP</nuxt-link> -->
+          <!-- <nuxt-link to="/clanky">Články</nuxt-link> -->
+          <!-- <nuxt-link to="/o-nas">O klubu</nuxt-link> -->
+          <!-- <nuxt-link to="/kontakt">Kontakt</nuxt-link> -->
         </nav>
-      </div>
-      <div class="container mt-6 -mb-6 text-xs text-gray-600 font-medium tracking-wide">
-        <ul class="flex gap-5">
-          <li class="pb-6 border-b-2 border-gray-500 text-gray-800">Škola investování</li>
-          <li>Z přednášek</li>
-          <li>Škola tradera</li>
-          <li>Investiční konference</li>
-          <li>Tvoje máma</li>
-        </ul>
       </div>
     </header>
 
@@ -72,68 +63,6 @@
       </div>
     </div>
 
-    <footer class="mt-32 bg-gray-800 text-gray-200 flex justify-between items-center py-16">
-      <div class="container flex justify-between">
-        <section>
-          <ul>
-            <li>
-              <nuxt-link
-                to="#"
-                class="hover:text-gray-100"
-              >Footer</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link
-                to="#"
-                class="hover:text-gray-100"
-              >Články</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link
-                to="#"
-                class="hover:text-gray-100"
-              >Články</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link
-                to="#"
-                class="hover:text-gray-100"
-              >Články</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link
-                to="#"
-                class="hover:text-gray-100"
-              >Články</nuxt-link>
-            </li>
-            <li>
-              <hr class="my-4 w-32 border-gray-700">
-            </li>
-            <li>
-              <nuxt-link
-                to="#"
-                class="hover:text-gray-100"
-              >Disclaimer</nuxt-link>
-            </li>
-            <li>
-              <nuxt-link
-                to="#"
-                class="hover:text-gray-100"
-              >nějaký GDPR, podmínky, nevím, tohle mě ještě nenapadlo</nuxt-link>
-            </li>
-          </ul>
-        </section>
-        <section class="text-gray-300">
-          <p>Klub investorů, z.s.
-            <br>
-            Ondříčkova 2166/14
-            <br>
-            Vinohrady, 130 00 Praha 3
-            <br>
-            IČ 265 639 67
-          </p>
-        </section>
-      </div>
-    </footer>
+  <v-footer />
   </div>
 </template>
