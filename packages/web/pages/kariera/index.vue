@@ -4,7 +4,7 @@
       :to="`/kariera/${job.slug}`"
       v-for="job in content"
       :key="job.id"
-      class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden flex items-center hover:shadow-lg"
+      class="h-24 w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden flex items-center hover:shadow-lg"
     >
       <div class="m-6">
         <h3 class="text-xl font-semibold leading-tight line-clamp-2">{{ job.Title }}</h3>
@@ -24,12 +24,14 @@
           >| Part-time</span>
         </div>
       </div>
-      <img
-        :src="`https://strapi-core.it.klubinvestoru.com${job.Logo.formats.thumbnail.url}`"
-        height="60"
-        class="h-16 ml-auto"
-        :alt="job.Logo.caption || job.Logo.alternativeText"
-      >
+      <div class="h-16 ml-auto flex items-center mr-4">
+        <img
+          :src="`https://strapi-core.it.klubinvestoru.com${job.Logo.formats.thumbnail.url}`"
+          height="64"
+          class="max-h-full"
+          :alt="job.Logo.caption || job.Logo.alternativeText"
+        >
+      </div>
     </nuxt-link>
   </section>
 
