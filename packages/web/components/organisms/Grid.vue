@@ -19,7 +19,7 @@
       >
         <img
           v-if="item.image"
-          :src="`https://strapi-core.it.klubinvestoru.com${item.image.formats.medium.url}`"
+          :src="`https://strapi-core.it.klubinvestoru.com${item.image.formats.small.url}`"
           alt=""
           class="shadow-lg rounded-lg hover:shadow-xl duration-300"
         >
