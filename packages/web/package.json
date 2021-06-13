@@ -15,7 +15,9 @@
     "@tailwindcss/line-clamp": "^0.2.0",
     "@tailwindcss/typography": "^0.4.0",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "nuxt": "^2.14.6",
+    "velocity-animate": "^1.5.2",
+    "vue-unicons": "^3.2.1"
   },
   "devDependencies": {
     "@nuxtjs/google-fonts": "^1.2.0",

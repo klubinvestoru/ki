@@ -12,3 +12,9 @@
     <VFooter />
   </div>
 </template>
+
+<script>
+export default {
+  layout: "zazij",
+};
+</script>

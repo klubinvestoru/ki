@@ -29,47 +29,57 @@
         target="_blank"
         class="mr-5 hover:text-purple-700"
       >
-        <unicon
-          name="facebook"
-          class="w-8 h-8"
-        />
+        <client-only>
+          <unicon
+            name="facebook"
+            class="w-8 h-8"
+          />
+        </client-only>
       </a>
       <a
         href="//m.me/klubinvestoru"
         class="mr-5 hover:text-purple-700"
       >
-        <unicon
-          name="facebook-messenger"
-          class="w-8 h-8"
-        />
+        <client-only>
+          <unicon
+            name="facebook-messenger"
+            class="w-8 h-8"
+          />
+        </client-only>
       </a>
       <a
         href="//instagram.com/klubinvestoru"
         class="mr-5 hover:text-purple-700"
       >
-        <unicon
-          name="instagram-alt"
-          class="w-8 h-8"
-        />
+        <client-only>
+          <unicon
+            name="instagram-alt"
+            class="w-8 h-8"
+          />
+        </client-only>
       </a>
       <a
         href="//youtube.com/klubinvestorutv"
         target="_blank"
         class="mr-5 hover:text-purple-700"
       >
-        <unicon
-          name="youtube"
-          class="w-8 h-8"
-        />
+        <client-only>
+          <unicon
+            name="youtube"
+            class="w-8 h-8"
+          />
+        </client-only>
       </a>
       <a
         href="//twitter.com/klubinvestoru"
         target="_blank"
       >
-        <unicon
-          name="twitter"
-          class="w-8 h-8"
-        />
+        <client-only>
+          <unicon
+            name="twitter"
+            class="w-8 h-8"
+          />
+        </client-only>
       </a>
     </div>
   </nav>

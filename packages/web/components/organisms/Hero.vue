@@ -18,10 +18,13 @@
             <button
               class="rounded-full mt-10 bg-purple-700 text-purple-100 shadow-md py-4 px-6 text-xl uppercase tracking-wider font-bold flex items-center hover:shadow-xl transition-all duration-200"
             >Napiš na Messenger
-              <unicon
-                name="facebook-messenger"
-                class="fill-current text-purple-200 ml-2"
-              />
+
+              <client-only>
+                <unicon
+                  name="facebook-messenger"
+                  class="fill-current text-purple-200 ml-2"
+                />
+              </client-only>
             </button>
           </a>
           <a

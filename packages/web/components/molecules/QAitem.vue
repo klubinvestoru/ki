@@ -7,10 +7,12 @@
       <span>
         <slot name="question" />
       </span>
-      <unicon
-        :name="isHidden ? `angle-down` : `angle-up`"
-        class="flex-shrink-0 ml-2"
-      />
+      <client-only>
+        <unicon
+          :name="isHidden ? `angle-down` : `angle-up`"
+          class="flex-shrink-0 ml-2"
+        />
+      </client-only>
     </div>
     <transition
       :css="false"
