@@ -47,6 +47,10 @@
               src="/jt.jpg"
               alt="J&amp;T Klub investorů"
             >
+             <img
+              src="/pwc.png"
+              alt="PwC Klub investorů"
+            >
             <img
               src="/drfg.jpg"
               alt="J&amp;T Klub investorů"

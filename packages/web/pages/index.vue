@@ -189,9 +189,9 @@
           class="w-32"
         >
           <img
-            src="/jt.jpg"
+            src="/pwc.png"
             class="w-full"
-            alt="J&amp;T Klub investorů"
+            alt="PwC Klub investorů"
           >
         </a>
         <a
