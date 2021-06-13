@@ -189,7 +189,7 @@
           class="w-32"
         >
           <img
-            src="https://klubinvestoru.com/image/4282.jpeg"
+            src="/jt.jpg"
             class="w-full"
             alt="J&amp;T Klub investorů"
           >
@@ -217,7 +217,7 @@
       </div>
       <div class="flex justify-end mt-8">
         <a
-          href="https://klubinvestoru.com/cs/27-partneri"
+          href="/partneri"
           class="text-lg font-medium text-green-600"
         >Více o partnerech →</a>
       </div>

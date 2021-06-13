@@ -23,7 +23,7 @@
     </div>
     <div class="flex items-baseline">
       <img
-        src="https://klubinvestoru.com/image/4282.jpeg"
+        src="/pwc.png"
         alt="PwC Klub investorů"
         class="w-16 mr-8"
       >

@@ -48,17 +48,5 @@ export default {
   async fetch() {
     this.content = await this.$strapi.find("jobs");
   },
-  methods: {
-    getSrc() {
-      const items = [
-        "https://klubinvestoru.com/image/4285-w300.jpeg",
-        "https://klubinvestoru.com/image/4288-w300.jpeg",
-        "https://klubinvestoru.com/image/4284-w300.jpeg",
-        "https://klubinvestoru.com/image/4283-w300.jpeg",
-      ];
-
-      return items[Math.floor(Math.random() * items.length)];
-    },
-  },
 };
 </script>
