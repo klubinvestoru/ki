@@ -1,6 +1,6 @@
 <script>
 export default {
-  asyncData({ context }) {
+  asyncData(context) {
     context.redirect(`/`);
   },
 };
