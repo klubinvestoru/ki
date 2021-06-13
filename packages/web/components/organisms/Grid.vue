@@ -21,7 +21,7 @@
           v-if="item.image"
           :src="`https://strapi-core.it.klubinvestoru.com${item.image.formats.small.url}`"
           alt=""
-          class="shadow-lg rounded-lg hover:shadow-xl duration-300"
+          class="shadow-lg rounded-lg hover:shadow-xl duration-300 object-cover w-full h-full"
         >
         <div
           class="-mt-6 font-medium py-3 px-6 text-xl bg-white rounded-lg shadow-lg group-hover:shadow-xl transition duration-300"
