@@ -109,7 +109,7 @@
       <div class="grid md:flex relative items-center w-full container">
         <div class="w-4/12 rounded-2xl overflow-hidden shadow-xl bg-white h-96 px-4 py-6">
           <img
-            src="jt.jpg"
+            src="jt.png"
             class="px-8"
           />
           <div class="grid grid-cols-2 text-black mt-8">
@@ -183,7 +183,7 @@
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Partneři
       </h3>
-      <div class="flex mt-12 justify-evenly">
+      <div class="flex mt-12 justify-evenly items-center">
         <a
           href="#"
           class="w-32"
@@ -199,7 +199,7 @@
           class="w-32"
         >
           <img
-            src="/jt.jpg"
+            src="/jt.png"
             class="w-full"
             alt="J&amp;T Klub investorů"
           >

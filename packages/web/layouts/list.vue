@@ -1,6 +1,6 @@
 <template>
   <div>
-  <header class="bg-gray-100 py-6 sticky top-0 z-20">
+    <header class="bg-gray-100 py-6 sticky top-0 z-20">
       <div class="container mx-auto flex items-center justify-between">
         <nuxt-link to="/">
           <img
@@ -44,7 +44,7 @@
 
           <div class="grid gap-16 mt-8 w-40 mx-auto">
             <img
-              src="/jt.jpg"
+              src="/jt.png"
               alt="J&amp;T Klub investorů"
             >
             <img
@@ -67,7 +67,6 @@
       </div>
     </div>
 
-
-  <v-footer />
+    <v-footer />
   </div>
 </template>

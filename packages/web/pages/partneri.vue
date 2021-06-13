@@ -3,7 +3,7 @@
     <h1>Partneři</h1>
     <div class="flex items-baseline">
       <img
-        src="/jt.jpg"
+        src="/jt.png"
         alt="J&amp;T Klub investorů"
         class="w-16 mr-8"
       >

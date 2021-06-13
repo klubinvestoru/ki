@@ -44,10 +44,10 @@
 
           <div class="grid gap-16 mt-8 w-60 mx-auto">
             <img
-              src="/jt.jpg"
+              src="/jt.png"
               alt="J&amp;T Klub investorů"
             >
-             <img
+            <img
               src="/pwc.png"
               alt="PwC Klub investorů"
             >
@@ -67,6 +67,6 @@
       </div>
     </div>
 
-  <v-footer />
+    <v-footer />
   </div>
 </template>
