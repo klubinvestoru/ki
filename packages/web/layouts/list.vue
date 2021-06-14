@@ -22,7 +22,7 @@
       </div>
     </header>
 
-    <div class="container grid grid-cols-3 gap-12 pt-8">
+    <div class="container grid grid-cols-3 gap-12 pt-8 mx-auto">
       <div class="col-span-2">
         <Nuxt />
       </div>
