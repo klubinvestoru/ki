@@ -12,6 +12,7 @@
 
         <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
           <!-- <nuxt-link to="/projekty">Projekty</nuxt-link> -->
+          <nuxt-link to="/zazij">Členství</nuxt-link>
           <nuxt-link to="/kariera">Kariéra</nuxt-link>
           <nuxt-link to="/partneri">Partneři</nuxt-link>
           <!-- <nuxt-link to="/vip">VIP</nuxt-link> -->
@@ -22,7 +23,7 @@
       </div>
     </header>
 
-    <div class="container grid grid-cols-3 gap-12 pt-8 md:pt-16">
+    <div class="container grid grid-cols-3 gap-12 pt-8 md:pt-16 mx-auto">
       <div class="col-span-2">
         <Nuxt />
       </div>

@@ -12,6 +12,7 @@
 
         <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
           <!-- <nuxt-link to="/projekty">Projekty</nuxt-link> -->
+          <nuxt-link to="/zazij">Členství</nuxt-link>
           <nuxt-link to="/kariera">Kariéra</nuxt-link>
           <nuxt-link to="/partneri">Partneři</nuxt-link>
           <!-- <nuxt-link to="/vip">VIP</nuxt-link> -->
