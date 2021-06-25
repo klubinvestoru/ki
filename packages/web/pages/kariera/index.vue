@@ -24,9 +24,12 @@
           >| Part-time</span>
         </div>
       </div>
-      <div class="h-16 ml-auto flex items-center mr-4">
+      <div
+        class="h-16 ml-auto flex items-center mr-4"
+        v-if="job.Logo"
+      >
         <img
-          :src="`https://strapi-core.it.klubinvestoru.com${job.Logo.formats.thumbnail.url}`"
+          :src="`https://strapi-core.it.klubinvestoru.com${getSrc(job.Logo)}`"
           height="64"
           class="max-h-full"
           :alt="job.Logo.caption || job.Logo.alternativeText"
@@ -47,6 +50,11 @@ export default {
   layout: "list",
   async fetch() {
     this.content = await this.$strapi.find("jobs");
+  },
+  methods: {
+    getSrc(logo) {
+      return logo?.formats?.thumbnail?.url || logo.url;
+    },
   },
 };
 </script>
