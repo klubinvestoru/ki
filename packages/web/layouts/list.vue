@@ -1,7 +1,9 @@
 <template>
   <div>
     <header class="bg-gray-100 py-6 sticky top-0 z-20">
-      <div class="container mx-auto flex items-center justify-between">
+      <div
+        class="container px-4 md:mx-auto md:px-8 grid gap-4 md:flex items-center justify-between flex-wrap md:flex-no-wrap md:space-x-12"
+      >
         <nuxt-link to="/">
           <img
             src="/logo.png"
@@ -10,7 +12,7 @@
           >
         </nuxt-link>
 
-        <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
+        <nav class="flex gap-6 font-semibold text-sm text-gray-600">
           <!-- <nuxt-link to="/projekty">Projekty</nuxt-link> -->
           <nuxt-link to="/zazij">Členství</nuxt-link>
           <nuxt-link to="/kariera">Kariéra</nuxt-link>
@@ -23,11 +25,11 @@
       </div>
     </header>
 
-    <div class="container grid grid-cols-3 gap-12 pt-8 mx-auto">
-      <div class="col-span-2">
+    <div class="container grid md:grid-cols-3 gap-12 pt-8 mx-auto">
+      <div class="md:col-span-2">
         <Nuxt />
       </div>
-      <div class="col-span-1">
+      <div class="md:col-span-1">
         <!-- <div class="bg-gray-700 text-gray-100 rounded-md py-8 px-6 flex flex-col shadow-xl">
           <h3 class="text-3xl">KI Newsletta</h3>
           <p class="mt-3 font-medium leading-5">Nepravidelná nálož - přednášky, události, pracovní pozice a jiné.</p>

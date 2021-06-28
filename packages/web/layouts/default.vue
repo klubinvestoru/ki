@@ -1,7 +1,9 @@
 <template>
   <div>
     <header class="bg-gray-100 py-6 sticky top-0 z-20">
-      <div class="container mx-auto flex items-center justify-between">
+      <div
+        class="container px-4 md:mx-auto md:px-8 grid gap-4 md:flex items-center justify-between flex-wrap md:flex-no-wrap md:space-x-12"
+      >
         <nuxt-link to="/">
           <img
             src="/logo.png"
@@ -10,7 +12,7 @@
           >
         </nuxt-link>
 
-        <nav class="ml-12 flex gap-6 font-semibold text-sm text-gray-600">
+        <nav class="flex gap-6 font-semibold text-sm text-gray-600">
           <!-- <nuxt-link to="/projekty">Projekty</nuxt-link> -->
           <nuxt-link to="/zazij">Členství</nuxt-link>
           <nuxt-link to="/kariera">Kariéra</nuxt-link>

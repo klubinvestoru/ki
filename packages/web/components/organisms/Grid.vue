@@ -1,6 +1,6 @@
 <template>
   <section
-    class="container mx-auto flex flex-col items-stretch"
+    class="container px-4 md:mx-auto md:px-8 flex flex-col items-stretch"
     :id="content.urlId || _uid"
   >
     <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
@@ -9,7 +9,7 @@
     <h2 class="text-4xl font-extrabold tracking-tight text-center mb-8"> {{ content.title }}</h2>
     <div
       class="select-none grid gap-24 justify-center w-full"
-      :class="`grid-cols-${content.maxColumns}`"
+      :class="`md:grid-cols-${content.maxColumns}`"
     >
       <a
         href="#"

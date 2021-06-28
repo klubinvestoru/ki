@@ -7,7 +7,7 @@
       :content="item"
     />
     <!--
-    <section class="container mx-auto">
+    <section class="container px-4 md:mx-auto md:px-8">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Články
       </h3>
@@ -147,43 +147,41 @@
   </div>
   </section> -->
 
-    <section class="container mx-auto">
+    <section class="container px-4 md:mx-auto md:px-8">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Předsedové
       </h3>
-      <div class="px-8">
-        <div class="flex flex-wrap -mx-16">
-          <v-person photo="jan.jpg">
-            <template #name>Jan Šereda</template>
-            <template #post>Předseda KI Praha</template>
-            <template #quote>Bez páky nezbohatneš.</template>
-          </v-person>
-          <v-person photo="patrik.jpg">
-            <template #name>Patrik Stránsky</template>
-            <template #post>Předseda KI Brno</template>
-            <template #quote>Aký máš názor na ekonómiu?</template>
-          </v-person>
-          <v-person photo="aleks.jpg">
-            <template #name>Alexej Szládicsek</template>
-            <template #post>Předseda KI Bratislava</template>
-            <template #quote>Byť šťastný a úspešný neznamená robiť to, čo sa nám páči, ale obľúbiť si to, čo
-              robíme.</template>
-          </v-person>
-        </div>
-        <!-- <div class="flex justify-end mt-8">
+      <div class="grid gap-8 md:gap-16 md:grid-cols-3 mt-4 md:mt-10">
+        <v-person photo="jan.jpg">
+          <template #name>Jan Šereda</template>
+          <template #post>Předseda KI Praha</template>
+          <template #quote>Bez páky nezbohatneš.</template>
+        </v-person>
+        <v-person photo="patrik.jpg">
+          <template #name>Patrik Stránsky</template>
+          <template #post>Předseda KI Brno</template>
+          <template #quote>Aký máš názor na ekonómiu?</template>
+        </v-person>
+        <v-person photo="aleks.jpg">
+          <template #name>Alexej Szládicsek</template>
+          <template #post>Předseda KI Bratislava</template>
+          <template #quote>Byť šťastný a úspešný neznamená robiť to, čo sa nám páči, ale obľúbiť si to, čo
+            robíme.</template>
+        </v-person>
+      </div>
+      <!-- <div class="flex justify-end mt-8">
           <a
             href="/partneri"
             class="text-lg font-medium text-green-600"
           >Více o předsedech →</a>
         </div> -->
-      </div>
     </section>
 
-    <section class="container mx-auto">
+    <section class="container px-4 md:mx-auto md:px-8">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Partneři
       </h3>
-      <div class="flex mt-12 justify-evenly items-center">
+      <div class="grid gap-12 md:flex mt-12 justify-evenly items-center flex-wrap">
         <a
           href="#"
           class="w-32"

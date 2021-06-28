@@ -1,12 +1,11 @@
 <template>
-  <section class="container text-green-100 mx-auto">
+  <section class="container text-green-100 px-4 md:mx-auto">
     <div class="relative mx-auto">
-
       <div class="bg-green-600 h-full w-full md:w-8/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
-      <div class="grid md:flex relative pt-8 md:pt-16 md:pb-24 items-center w-full">
+      <div class="grid gap-6 md:flex relative py-8 md:pt-16 md:pb-24 items-center w-full">
         <div class="z-10 md:w-5/12 mx-8 md:ml-24">
-          <h1 class="text-3xl sm:text-4xl xl:text-4xl font-bold leading-tight">{{ content.title }}</h1>
-          <p class="mt-6 text-xl md:text-xl leading-snug">
+          <h1 class="text-2xl md:text-3xl xl:text-4xl font-bold leading-tight">{{ content.title }}</h1>
+          <p class="mt-3 md:mt-6 text-lg md:text-xl leading-snug">
             {{content.text}}
           </p>
           <!-- <div class="flex flex-col items-center">
@@ -17,9 +16,9 @@
               </button>
             </div> -->
         </div>
-        <div class="w-2/12"></div>
+        <div class="md:w-2/12"></div>
         <div
-          class="w-4/12 -ml-32 rounded-xl overflow-hidden shadow-lg"
+          class="md:w-4/12 mx-8 md:mx-0 md:-ml-32 rounded-xl overflow-hidden shadow-lg"
           v-html="content.embded_link"
         >
           <!-- <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" /> -->

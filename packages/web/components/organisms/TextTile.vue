@@ -1,5 +1,5 @@
 <template>
-  <section class="container mx-auto">
+  <section class="container px-4 md:mx-auto md:px-8">
     <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
       {{ content.subtitle }}
     </h3>
