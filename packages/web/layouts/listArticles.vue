@@ -2,7 +2,7 @@
   <div>
     <header class="bg-gray-100 py-6 sticky top-0 z-20">
       <div
-        class="container px-4 md:mx-auto md:px-8 grid gap-4 md:flex items-center justify-between flex-wrap md:flex-no-wrap md:space-x-12"
+        class="w-10/12 md:container mx-auto grid gap-4 md:flex items-center justify-between flex-wrap md:flex-no-wrap md:space-x-12"
       >
         <nuxt-link to="/">
           <img
@@ -25,11 +25,11 @@
       </div>
     </header>
 
-    <div class="container grid grid-cols-3 gap-12 pt-8 md:pt-16 mx-auto">
-      <div class="col-span-2">
+    <div class="container grid grid-cols-3 gap-12 md:pt-16 mx-auto">
+      <div class="md:col-span-2 w-10/12 md:container mx-auto">
         <Nuxt />
       </div>
-      <div class="col-span-1">
+      <div class="md:col-span-1">
         <!-- <div class="bg-gray-700 text-gray-100 rounded-md py-8 px-6 flex flex-col shadow-xl">
           <h3 class="text-3xl">KI Newsletta</h3>
           <p class="mt-3 font-medium leading-5">Nepravidelná nálož - přednášky, události, pracovní pozice a jiné.</p>

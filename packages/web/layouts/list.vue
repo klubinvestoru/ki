@@ -2,7 +2,7 @@
   <div>
     <header class="bg-gray-100 py-6 sticky top-0 z-20">
       <div
-        class="container px-4 md:mx-auto md:px-8 grid gap-4 md:flex items-center justify-between flex-wrap md:flex-no-wrap md:space-x-12"
+        class="w-10/12 md:container mx-auto grid gap-4 md:flex items-center justify-between flex-wrap md:flex-no-wrap md:space-x-12"
       >
         <nuxt-link to="/">
           <img
@@ -25,7 +25,7 @@
       </div>
     </header>
 
-    <div class="container grid md:grid-cols-3 gap-12 pt-8 mx-auto">
+    <div class="w-10/12 md:container mx-auto grid md:grid-cols-3 gap-12 md:pt-8">
       <div class="md:col-span-2">
         <Nuxt />
       </div>
@@ -42,7 +42,7 @@
           <span class="mt-4 text-center text-xs font-medium">Žádný spam, slibujeme</span>
         </div> -->
 
-        <div class="mt-12">
+        <div class="md:sticky md:top-0">
           <h3 class="text-center">Hlavní partneři Klubu investorů</h3>
 
           <div class="grid gap-16 mt-8 w-40 mx-auto">

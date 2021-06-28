@@ -1,6 +1,6 @@
 <template>
   <footer class="mt-32 bg-gray-800 text-gray-200 fill-current flex justify-between items-center py-16">
-    <div class="container px-4 md:mx-auto md:px-8 grid gap-12 md:flex justify-between items-center">
+    <div class="w-10/12 md:container mx-auto grid gap-12 md:flex justify-between items-center">
       <section>
         <ul class="fill-current text-gray-200 flex gap-4">
           <li>

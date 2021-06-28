@@ -1,13 +1,13 @@
 <template>
   <section class="text-lg max-w-prose mx-auto mb-6 prose">
-    <h1>Partneři</h1>
-    <div class="flex items-baseline">
+    <h1 class="text-3xl sm:text-4xl md:text-5xl mb-6">Partneři</h1>
+    <div class="grid md:flex items-baseline">
       <img
         src="/jt.png"
         alt="J&amp;T Klub investorů"
-        class="w-16 mr-8"
+        class="w-16 md:mr-8"
       >
-      <div>
+      <div class="-mt-12 md:mt-0">
         <h2>J&amp;T finanční skupina</h2>
         <p>J&amp;T finanční skupina je slovenská investiční společnost, založená v roce 1995. V oblasti investic se
           zaměřuje
@@ -21,13 +21,13 @@
         </p>
       </div>
     </div>
-    <div class="flex items-baseline">
+    <div class="grid md:flex items-baseline">
       <img
         src="/pwc.png"
         alt="PwC Klub investorů"
-        class="w-16 mr-8"
+        class="w-16 md:mr-8"
       >
-      <div>
+      <div class="-mt-12 md:mt-0">
         <h2>PWC</h2>
         <p>PwC, to je největší auditní tým v České republice, právo, daně, poradenství i technologické, datové nebo
           forenzní
@@ -37,13 +37,13 @@
         </p>
       </div>
     </div>
-    <div class="flex items-baseline">
+    <div class="grid md:flex items-baseline">
       <img
         src="/drfg.jpg"
         alt="DRFG Klub investorů"
-        class="w-16 mr-8"
+        class="w-16 md:mr-8"
       >
-      <div>
+      <div class="-mt-12 md:mt-0">
         <h2>DRFG</h2>
         <p>DRFG je investiční skupina založená v roce 2011. Mezi hlavní oblasti jejího zájmu patří investice do
           nemovitostí,

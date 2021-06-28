@@ -1,6 +1,6 @@
 <template>
   <section
-    class="container px-4 md:mx-auto md:px-8 flex flex-col items-stretch"
+    class="w-10/12 md:container mx-auto flex flex-col items-stretch"
     :id="content.urlId || _uid"
   >
     <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">

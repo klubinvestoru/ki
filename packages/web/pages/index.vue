@@ -7,7 +7,7 @@
       :content="item"
     />
     <!--
-    <section class="container px-4 md:mx-auto md:px-8">
+    <section class="w-10/12 md:container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Články
       </h3>
@@ -147,7 +147,7 @@
   </div>
   </section> -->
 
-    <section class="container px-4 md:mx-auto md:px-8">
+    <section class="w-10/12 md:container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Předsedové
       </h3>
@@ -177,7 +177,7 @@
         </div> -->
     </section>
 
-    <section class="container px-4 md:mx-auto md:px-8">
+    <section class="w-10/12 md:container mx-auto">
       <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
         Partneři
       </h3>

@@ -4,7 +4,7 @@
       :to="`/kariera/${job.slug}`"
       v-for="job in content"
       :key="job.id"
-      class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden flex items-center hover:shadow-lg"
+      class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden grid md:flex items-center hover:shadow-lg"
     >
       <div class="m-6">
         <h3 class="text-xl font-semibold leading-tight line-clamp-2">{{ job.Title }}</h3>
@@ -25,13 +25,13 @@
         </div>
       </div>
       <div
-        class="h-16 ml-auto flex items-center mr-4"
+        class="h-16 mx-auto w-full md:w-auto md:ml-auto flex items-center md:mr-4"
         v-if="job.Logo"
       >
         <img
           :src="`https://strapi-core.it.klubinvestoru.com${getSrc(job.Logo)}`"
           height="64"
-          class="max-h-full"
+          class="max-h-full mx-auto"
           :alt="job.Logo.caption || job.Logo.alternativeText"
         >
       </div>

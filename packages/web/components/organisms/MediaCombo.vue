@@ -1,6 +1,6 @@
 <template>
-  <section class="container px-4 md:mx-auto md:px-8">
-    <div class="grid md:flex relative pt-8 md:pt-16 items-center w-full">
+  <section class="w-10/12 md:container mx-auto">
+    <div class="grid gap-8 md:gap-0 md:flex relative pt-8 md:pt-16 items-center w-full">
       <div class="md:w-5/12 mr-8">
         <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">{{ content.title }}</h2>
         <p class="mt-6 text-xl md:text-xl leading-snug">{{ content.description }}</p>
