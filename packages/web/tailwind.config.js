@@ -18,15 +18,17 @@ module.exports = {
         md: '6rem',
       }
     },
-
+    extend: {
+      inset: {
+        '5': '5rem'
+      }
+    }
   },
   variants: {
     extend: {
       boxShadow: ['group-hover'],
       margin: ['hover'],
-      inset: {
-        '5': '5rem'
-      }
+
     }
   },
   plugins: [
