@@ -26,6 +26,7 @@
           v-for="job in content"
           :key="job.id"
           class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden grid md:flex items-center hover:shadow-lg"
+          :class="(job.top && job.company === 'PwC') && 'border-l-8 border-pwc-orange'"
         >
           <div class="m-6">
             <h3 class="text-xl font-semibold leading-tight line-clamp-2">{{ job.Title }}</h3>
