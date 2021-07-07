@@ -1,41 +1,64 @@
 <template>
-  <section class="grid gap-y-6">
-    <nuxt-link
-      :to="`/kariera/${job.slug}`"
-      v-for="job in content"
-      :key="job.id"
-      class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden grid md:flex items-center hover:shadow-lg"
-    >
-      <div class="m-6">
-        <h3 class="text-xl font-semibold leading-tight line-clamp-2">{{ job.Title }}</h3>
-        <div class="mt-2 text-gray-600">
-          <span class="jobs-company">{{ job.company }}</span>
-          <span
-            class="jobs-city"
-            v-if="job.City"
-          >| {{ job.City  }}</span>
-          <span
-            class="jobs-city"
-            v-if="job.Fulltime"
-          > | Full-time</span>
-          <span
-            class="jobs-city"
-            v-if="job.Parttime"
-          >| Part-time</span>
-        </div>
-      </div>
-      <div
-        class="h-16 mx-auto w-full md:w-auto md:ml-auto flex items-center md:mr-4"
-        v-if="job.Logo"
+  <section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/velocity/1.2.3/velocity.min.js"></script>
+
+    <div class="flex items-center justify-between mb-6">
+      <h1 class="text-xl sm:text-2xl md:text-3xl">Kariéra</h1>
+      <v-button
+        class="border-2 px-4 py-1 text-base font-semibold cursor-pointer rounded-full duration-300 shadow-md bg-white flex items-center hover:shadow-lg"
+        :class="onlyPwC && 'border-2 text-pwc-orange border-pwc-orange'"
+        @click.native="onlyPwC = !onlyPwC"
+      >Kariéra v PwC</v-button>
+    </div>
+    <div class="grid gap-y-6">
+      <transition-group
+        tag="div"
+        class="grid gap-y-6"
+        enter-active-class="ease-out duration-300 transition-all"
+        enter-class="opacity-0"
+        enter-to-class="opacity-100"
+        leave-active-class="ease-in duration-300 transition-all"
+        leave-class="opacity-100"
+        leave-to-class="opacity-0"
       >
-        <img
-          :src="`https://strapi-core.it.klubinvestoru.com${getSrc(job.Logo)}`"
-          height="64"
-          class="max-h-full mx-auto"
-          :alt="job.Logo.caption || job.Logo.alternativeText"
+        <nuxt-link
+          :to="`/kariera/${job.slug}`"
+          v-for="job in content"
+          :key="job.id"
+          class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden grid md:flex items-center hover:shadow-lg"
         >
-      </div>
-    </nuxt-link>
+          <div class="m-6">
+            <h3 class="text-xl font-semibold leading-tight line-clamp-2">{{ job.Title }}</h3>
+            <div class="mt-2 text-gray-600">
+              <span class="jobs-company">{{ job.company }}</span>
+              <span
+                class="jobs-city"
+                v-if="job.City"
+              >| {{ job.City  }}</span>
+              <span
+                class="jobs-city"
+                v-if="job.Fulltime"
+              > | Full-time</span>
+              <span
+                class="jobs-city"
+                v-if="job.Parttime"
+              >| Part-time</span>
+            </div>
+          </div>
+          <div
+            class="h-16 mx-auto w-full md:w-auto md:ml-auto flex items-center md:mr-4"
+            v-if="job.Logo"
+          >
+            <img
+              :src="`https://strapi-core.it.klubinvestoru.com${getSrc(job.Logo)}`"
+              height="64"
+              class="max-h-full mx-auto"
+              :alt="job.Logo.caption || job.Logo.alternativeText"
+            >
+          </div>
+        </nuxt-link>
+      </transition-group>
+    </div>
   </section>
 
 </template>
@@ -44,15 +67,24 @@
 export default {
   data() {
     return {
-      content: [],
+      response: [],
+      onlyPwC: false,
     };
   },
   layout: "list",
   async fetch() {
     const response = await this.$strapi.find("jobs");
-    this.content = response.reverse().sort((a, b) => {
+    this.response = response.reverse().sort((a, b) => {
       return b.top - a.top;
     });
+  },
+  computed: {
+    content() {
+      if (this.onlyPwC) {
+        return this.response.filter((job) => job.company === "PwC");
+      }
+      return this.response;
+    },
   },
   methods: {
     getSrc(logo) {

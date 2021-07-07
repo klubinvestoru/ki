@@ -6,6 +6,7 @@
     <h2 class="text-4xl font-extrabold tracking-tight text-center">{{ content.title }}</h2>
     <div class="mx-4 md:mx-auto">
       <iframe
+        loading="lazy"
         width="728"
         height="410"
         class="mt-12 rounded-xl shadow-xl max-w-full mx-auto"

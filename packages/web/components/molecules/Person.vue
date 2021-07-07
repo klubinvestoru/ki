@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center px-8">
+  <div class="flex flex-col items-center">
     <img
       class="h-48 w-48 flex-shrink-0 shadow-2xl rounded-xl overflow-hidden"
       :src="photo"

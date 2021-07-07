@@ -21,8 +21,17 @@ module.exports = {
     extend: {
       inset: {
         '5': '5rem'
-      }
-    }
+      },
+      colors: {
+        'pwc': {
+          'tan': '#c7a48d',
+          'logo': '#ff3df2',
+          'yellow': '#ffb30d',
+          'burleywood': '#ffa680',
+          'orange': '#ff8014',
+        }
+      },
+    },
   },
   variants: {
     extend: {

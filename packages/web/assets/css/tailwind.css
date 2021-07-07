@@ -4,6 +4,9 @@
 /* purgecss end ignore */
 @import 'tailwindcss/utilities';
 
+:focus {outline:none;}
+::-moz-focus-inner {border:0;}
+
 @layer base {
   body {
     @apply bg-gray-100 font-sans;
