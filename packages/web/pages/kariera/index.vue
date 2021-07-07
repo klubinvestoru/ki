@@ -49,7 +49,10 @@ export default {
   },
   layout: "list",
   async fetch() {
-    this.content = await this.$strapi.find("jobs");
+    const response = await this.$strapi.find("jobs");
+    this.content = response.reverse().sort((a, b) => {
+      return b.top - a.top;
+    });
   },
   methods: {
     getSrc(logo) {
