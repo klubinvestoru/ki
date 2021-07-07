@@ -42,7 +42,7 @@
           <span class="mt-4 text-center text-xs font-medium">Žádný spam, slibujeme</span>
         </div> -->
 
-        <div class="md:sticky md:top-0">
+        <div class="md:sticky md:top-5">
           <h3 class="text-center">Hlavní partneři Klubu investorů</h3>
 
           <div class="grid gap-16 mt-8 w-40 mx-auto">

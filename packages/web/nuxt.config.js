@@ -49,5 +49,12 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+    // https://dev.to/lukeocodes/make-nuxt-js-go-brrrrrrrr-30-minute-to-1-minute-builds-on-netlify-f6e
+    html: {
+      minify: {
+        minifyCSS: false,
+        minifyJS: false,
+      }
+    }
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="max-w-prose mx-auto prose">
+    <div class="prose">
       <h2>
         {{ post.Title }}
       </h2>
