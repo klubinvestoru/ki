@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/gtm": "^2.4.0",
     "@nuxtjs/markdownit": "^2.0.0",
     "@nuxtjs/strapi": "^0.3.0",
     "@tailwindcss/forms": "^0.2.1",
