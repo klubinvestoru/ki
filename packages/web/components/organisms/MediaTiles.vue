@@ -1,12 +1,18 @@
 <template>
   <section class="w-10/12 md:container text-green-100 mx-auto">
     <div class="relative mx-auto">
-      <div class="bg-green-600 h-full w-full md:w-9/12 shadow-2xl absolute left-0 top-0 rounded-2xl"></div>
-      <div class="grid gap-6 md:gap-0 md:flex relative py-8 md:pt-16 md:pb-24 items-center w-full">
+      <div
+        class="bg-green-600 h-full w-full md:w-9/12 shadow-2xl absolute left-0 top-0 rounded-2xl"
+      ></div>
+      <div
+        class="grid gap-6 md:gap-0 md:flex relative py-8 md:pt-16 md:pb-24 items-center w-full"
+      >
         <div class="z-10 md:w-6/12 mx-8 md:mx-0 md:pl-24">
-          <h1 class="text-2xl md:text-3xl xl:text-4xl font-bold leading-tight">{{ content.title }}</h1>
+          <h1 class="text-2xl md:text-3xl xl:text-4xl font-bold leading-tight">
+            {{ content.title }}
+          </h1>
           <p class="mt-3 md:mt-6 text-lg md:text-xl leading-snug">
-            {{content.text}}
+            {{ content.text }}
           </p>
           <!-- <div class="flex flex-col items-center">
 
@@ -20,9 +26,9 @@
         <div
           class="md:w-5/12 mx-8 md:mx-0 rounded-xl overflow-hidden shadow-lg"
           v-html="content.embded_link"
-        >
-          <!-- <img src="https://klubinvestoru.com/public/uploads/files/Jan%20H%C3%A1jek.jpg" /> -->
-        </div>
+          v-if="content.embded_link"
+        ></div>
+        <img v-if="content.image" :src="content.image" />
       </div>
     </div>
   </section>
@@ -32,8 +38,8 @@
 export default {
   props: {
     content: {
-      type: Object,
-    },
-  },
+      type: Object
+    }
+  }
 };
 </script>
