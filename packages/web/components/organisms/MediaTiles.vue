@@ -28,7 +28,13 @@
           v-html="content.embded_link"
           v-if="content.embded_link"
         ></div>
-        <img v-if="content.image" :src="content.image" />
+        <img
+          v-if="content.image"
+          class="md:w-5/12 mx-8 md:mx-0 rounded-xl overflow-hidden shadow-lg"
+          :src="
+            `https://strapi-core.it.klubinvestoru.com${content.image.formats.small.url}`
+          "
+        />
       </div>
     </div>
   </section>
