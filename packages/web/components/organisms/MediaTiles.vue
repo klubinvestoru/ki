@@ -11,7 +11,10 @@
           <h1 class="text-2xl md:text-3xl xl:text-4xl font-bold leading-tight">
             {{ content.title }}
           </h1>
-          <p class="mt-3 md:mt-6 text-lg md:text-xl leading-snug">
+          <p
+            class="mt-3 md:mt-6 text-lg md:text-xl leading-snug"
+            v-html="content.text"
+          >
             {{ content.text }}
           </p>
           <!-- <div class="flex flex-col items-center">
@@ -25,7 +28,6 @@
         <div class="md:w-1/12"></div>
         <div
           class="md:w-5/12 mx-8 md:mx-0 rounded-xl overflow-hidden shadow-lg"
-          v-html="content.embded_link"
           v-if="content.embded_link"
         ></div>
         <img
