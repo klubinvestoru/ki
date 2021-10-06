@@ -148,7 +148,9 @@
   </section> -->
 
     <section class="w-10/12 md:container mx-auto">
-      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
+      <h3
+        class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center"
+      >
         Předsedové
       </h3>
       <div class="grid gap-8 md:gap-16 md:grid-cols-3 mt-4 md:mt-10">
@@ -157,16 +159,18 @@
           <template #post>Předseda KI Praha</template>
           <template #quote>Bez páky nezbohatneš.</template>
         </v-person>
-        <v-person photo="patrik.jpg">
-          <template #name>Patrik Stránsky</template>
+        <v-person photo="aleksandar.jpeg">
+          <template #name>Aleksandar Brdar</template>
           <template #post>Předseda KI Brno</template>
-          <template #quote>Aký máš názor na ekonómiu?</template>
+          <template #quote>Predaj mi toto pero.</template>
         </v-person>
         <v-person photo="aleks.jpg">
           <template #name>Alexej Szládicsek</template>
           <template #post>Předseda KI Bratislava</template>
-          <template #quote>Byť šťastný a úspešný neznamená robiť to, čo sa nám páči, ale obľúbiť si to, čo
-            robíme.</template>
+          <template #quote
+            >Byť šťastný a úspešný neznamená robiť to, čo sa nám páči, ale
+            obľúbiť si to, čo robíme.</template
+          >
         </v-person>
       </div>
       <!-- <div class="flex justify-end mt-8">
@@ -178,46 +182,28 @@
     </section>
 
     <section class="w-10/12 md:container mx-auto">
-      <h3 class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center">
+      <h3
+        class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center"
+      >
         Partneři
       </h3>
-      <div class="grid gap-12 md:flex mt-12 justify-evenly items-center flex-wrap">
-        <a
-          href="#"
-          class="w-32"
-        >
-          <img
-            src="/pwc.png"
-            class="w-full"
-            alt="PwC Klub investorů"
-          >
+      <div
+        class="grid gap-12 md:flex mt-12 justify-evenly items-center flex-wrap"
+      >
+        <a href="#" class="w-32">
+          <img src="/pwc.png" class="w-full" alt="PwC Klub investorů" />
         </a>
-        <a
-          href="#"
-          class="w-32"
-        >
-          <img
-            src="/jt.png"
-            class="w-full"
-            alt="J&amp;T Klub investorů"
-          >
+        <a href="#" class="w-32">
+          <img src="/jt.png" class="w-full" alt="J&amp;T Klub investorů" />
         </a>
-        <a
-          href="#"
-          class="w-32"
-        >
-          <img
-            src="/drfg.jpg"
-            class="w-full"
-            alt="J&amp;T Klub investorů"
-          >
+        <a href="#" class="w-32">
+          <img src="/drfg.jpg" class="w-full" alt="J&amp;T Klub investorů" />
         </a>
       </div>
       <div class="flex justify-end mt-8">
-        <a
-          href="/partneri"
-          class="text-lg font-medium text-green-600"
-        >Více o partnerech →</a>
+        <a href="/partneri" class="text-lg font-medium text-green-600"
+          >Více o partnerech →</a
+        >
       </div>
     </section>
   </div>
@@ -232,14 +218,14 @@ export default {
 
   data() {
     return {
-      content: {},
+      content: {}
     };
   },
 
   methods: {
     getComponentName(name) {
       return name.replace("chapters.", "v-");
-    },
-  },
+    }
+  }
 };
 </script>
