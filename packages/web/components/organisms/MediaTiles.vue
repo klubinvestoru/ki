@@ -29,7 +29,8 @@
         <div
           class="md:w-5/12 mx-8 md:mx-0 rounded-xl overflow-hidden shadow-lg"
           v-if="content.embded_link"
-        ></div>
+          v-html="content.embded_link"
+        />
         <img
           v-if="content.image"
           class="md:w-5/12 mx-8 md:mx-0 rounded-xl overflow-hidden shadow-lg"
