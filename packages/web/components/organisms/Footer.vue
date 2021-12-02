@@ -12,7 +12,7 @@
               href="http://fb.com/klubinvestoru"
               target="_blank"
               rel="noopener noreferrer"
-              class="h-8 w-8 inline-flex visited:text-gray-200"
+              class="h-8 w-8 inline-flex text-gray-200 visited:text-gray-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@
               href="http://instagram.com/ki_praha"
               target="_blank"
               rel="noopener noreferrer"
-              class="h-8 w-8 inline-flex visited:text-gray-200"
+              class="h-8 w-8 inline-flex text-gray-200 visited:text-gray-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +54,7 @@
               href="https://www.youtube.com/channel/UCOm7ceRVGPXVkDJ-WUSW8xA"
               target="_blank"
               rel="noopener noreferrer"
-              class="h-8 w-8 inline-flex visited:text-gray-200"
+              class="h-8 w-8 inline-flex text-gray-200 visited:text-gray-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -73,7 +73,7 @@
               href="http://twitter.com/klubinvestoru"
               target="_blank"
               rel="noopener noreferrer"
-              class="h-8 w-8 inline-flex visited:text-gray-200"
+              class="h-8 w-8 inline-flex text-gray-200 visited:text-gray-200"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
