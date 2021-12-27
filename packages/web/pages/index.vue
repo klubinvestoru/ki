@@ -197,7 +197,11 @@
           <img src="/jt.png" class="w-full" alt="J&amp;T Klub investorů" />
         </a>
         <a href="#" class="w-32">
-          <img src="/drfg.jpg" class="w-full" alt="J&amp;T Klub investorů" />
+          <img
+            src="/Pale_Fire_Capital.jpg"
+            class="w-full"
+            alt="Pale Fire Capital Klub investorů"
+          />
         </a>
       </div>
       <div class="flex justify-end mt-8">

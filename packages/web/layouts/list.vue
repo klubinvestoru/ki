@@ -5,11 +5,7 @@
         class="w-10/12 md:container mx-auto grid gap-4 md:flex items-center justify-between flex-wrap md:flex-no-wrap md:space-x-12"
       >
         <nuxt-link to="/">
-          <img
-            src="/logo.png"
-            alt="Klub investorů"
-            class="h-8"
-          >
+          <img src="/logo.png" alt="Klub investorů" class="h-8" />
         </nuxt-link>
 
         <nav class="flex gap-6 font-semibold text-sm text-gray-600">
@@ -25,7 +21,9 @@
       </div>
     </header>
 
-    <div class="w-10/12 md:container mx-auto grid md:grid-cols-3 gap-12 md:pt-8">
+    <div
+      class="w-10/12 md:container mx-auto grid md:grid-cols-3 gap-12 md:pt-8"
+    >
       <div class="md:col-span-2">
         <Nuxt />
       </div>
@@ -46,24 +44,19 @@
           <h3 class="text-center">Hlavní partneři Klubu investorů</h3>
 
           <div class="grid gap-16 mt-8 w-40 mx-auto">
+            <img src="/jt.png" alt="J&amp;T Klub investorů" />
+            <img src="/pwc.png" alt="PwC Klub investorů" />
             <img
-              src="/jt.png"
-              alt="J&amp;T Klub investorů"
-            >
-            <img
-              src="/pwc.png"
-              alt="PwC Klub investorů"
-            >
-            <img
-              src="/drfg.jpg"
-              alt="J&amp;T Klub investorů"
-            >
+              src="/Pale_Fire_Capital.jpg"
+              alt="Pale Fire Capital Klub investorů"
+            />
           </div>
 
           <nuxt-link
             to="/partneri"
             class="text-sm font-medium block text-right mt-4"
-          >Více o našich partnerech →</nuxt-link>
+            >Více o našich partnerech →</nuxt-link
+          >
         </div>
 
         <!-- <div class="mt-16 text-sm">podcast? o klubu? ještě něco?</div> -->

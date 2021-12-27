@@ -35,20 +35,24 @@
         </div>
       </div>
       <div class="grid md:flex items-baseline">
-        <img src="/drfg.jpg" alt="DRFG Klub investorů" class="w-16 md:mr-8" />
+        <img
+          src="/Pale_Fire_Capital.jpg"
+          alt="Pale fire Capital Klub investorů"
+          class="w-16 md:mr-8"
+        />
         <div class="-mt-12 md:mt-0">
-          <h2>DRFG</h2>
+          <h2>Pale Fire Capital</h2>
           <p>
-            DRFG je investiční skupina založená v roce 2011. Mezi hlavní oblasti
-            jejího zájmu patří investice do nemovitostí, telekomunikací a
-            finančních služeb. Oblast nemovitostí představuje největší část
-            aktiv celé skupiny. Její portfolio zahrnuje desítky retail parků,
-            obchodních center a také jednotlivých objektů v České republice,
-            skupina proniká také na pole developerských aktivit. V
-            telekomunikacích se soustředí výhradně na svou strategickou
-            investici, společnost Suntel Group, která na trhu působí již více
-            než 20 let. DRFG působí v několika evropských zemích, mezi nimi
-            například ve Švýcarsku, Německu nebo třeba Polsku.
+            Jsme česká private equity skupina podporující technologické inovace.
+            Vznikli jsme v roce 2015 a od té doby vytváříme se zakladateli pevná
+            partnerství. Nejsme investoři, co sedí opodál, aktivně pomáháme s
+            expanzí a překonáváním bariér a stropů, na které rostoucí firmy
+            narážejí. Naším cílem je budovat silné firmy na pevných základech a
+            mít velmi dobře diverzifikované portfolio. Do našeho portfolia patří
+            Aukro, Favi, Rouvy, Mubi, Semantic Visions, Munipolis, Agdata a
+            další. Je pro nás důležitý také společensky prospěšný přesah našich
+            aktivit, a tak 2 % hodnoty firem ročně alokujeme na neziskové
+            projekty s důrazem na systémovou změnu a vzdělávání.
           </p>
         </div>
       </div>
