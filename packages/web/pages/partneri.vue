@@ -36,7 +36,7 @@
       </div>
       <div class="grid md:flex items-baseline">
         <img
-          src="/Pale_Fire_Capital.jpg"
+          src="/Pale_Fire_Capital.jfif"
           alt="Pale fire Capital Klub investorů"
           class="w-16 md:mr-8"
         />

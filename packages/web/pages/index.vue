@@ -198,7 +198,7 @@
         </a>
         <a href="#" class="w-32">
           <img
-            src="/Pale_Fire_Capital.jpg"
+            src="/Pale_Fire_Capital.jfif"
             class="w-full"
             alt="Pale Fire Capital Klub investorů"
           />

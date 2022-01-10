@@ -47,7 +47,7 @@
             <img src="/jt.png" alt="J&amp;T Klub investorů" />
             <img src="/pwc.png" alt="PwC Klub investorů" />
             <img
-              src="/Pale_Fire_Capital.jpg"
+              src="/Pale_Fire_Capital.jfif"
               alt="Pale Fire Capital Klub investorů"
             />
           </div>
