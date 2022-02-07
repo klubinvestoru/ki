@@ -59,13 +59,27 @@
     </div>
     <h2>Mediální partneři</h2>
     <div class="prose">
-      <a
-        href="https://www.studiovokal.cz"
-        target="_blank"
-        class="grid md:flex items-baseline"
-      >
-        <img src="/vokal.png" alt="PwC Klub investorů" class="w-16 md:mr-8" />
-      </a>
+      <div class="grid md:flex items-baseline">
+        <a
+          href="https://www.studiovokal.cz"
+          target="_blank"
+          class="md:mr-8 flex flex-shrink-0"
+        >
+          <img
+            src="/vokal.png"
+            alt="Studio Vokál Klub investorů"
+            class="w-16"
+          />
+        </a>
+        <div class="-mt-12 md:mt-0">
+          <h2>Studio Vokál</h2>
+          <p>
+            Jsme podcastové studio v centru Brna. Sdružujeme mladou komunitu
+            podcasterů. Zajistíme tvorbu, editaci a následný marketing tvého
+            podcastu!
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </template>
