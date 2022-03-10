@@ -164,13 +164,10 @@
           <template #post>Předseda KI Brno</template>
           <template #quote>Predaj mi toto pero.</template>
         </v-person>
-        <v-person photo="aleks.jpg">
-          <template #name>Alexej Szládicsek</template>
-          <template #post>Předseda KI Bratislava</template>
-          <template #quote
-            >Byť šťastný a úspešný neznamená robiť to, čo sa nám páči, ale
-            obľúbiť si to, čo robíme.</template
-          >
+        <v-person photo="zuzka.jpg">
+          <template #name>Zuzana Repková</template>
+          <template #post>Předsedkyně KI Bratislava</template>
+          <template #quote></template>
         </v-person>
       </div>
       <!-- <div class="flex justify-end mt-8">
