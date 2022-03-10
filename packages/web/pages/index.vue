@@ -167,7 +167,7 @@
         <v-person photo="zuzka.jpg">
           <template #name>Zuzana Repková</template>
           <template #post>Předsedkyně KI Bratislava</template>
-          <template #quote></template>
+          <template #quote><span /></template>
         </v-person>
       </div>
       <!-- <div class="flex justify-end mt-8">
