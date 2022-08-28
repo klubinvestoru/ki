@@ -39,10 +39,10 @@ export default {
   ],
   strapi: {
     // Options
-    url: process.env.STRAPI_URL || "https://strapi-core.it.klubinvestoru.com"
+    url: process.env.STRAPI_URL
   },
   gtm: {
-    id: "GTM-WTRK25P"
+    id: process.env.GTM_WEB
   },
   googleFonts: {
     families: {
