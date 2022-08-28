@@ -15,12 +15,14 @@
           class="flex-shrink-0"
         /> -->
       </div>
-      <h5 class="mb-4 text-green-600 uppercase tracking-wider text-sm font-semibold flex">
+      <h5
+        class="mb-4 text-green-600 uppercase tracking-wider text-sm font-semibold flex"
+      >
         <slot name="post">Předseda</slot>
       </h5>
       <div class="flex justify-between items-end">
         <q class="text-lg">
-          <slot name="quote">Nestíhám přednášku, napište, jestli pak jdete na pivo.</slot>
+          <slot name="quote" />
         </q>
       </div>
     </div>
@@ -31,12 +33,12 @@
 export default {
   props: {
     photo: {
-      type: String,
+      type: String
     },
     alt: {
       type: String,
-      default: "Předseda Klubu investorů",
-    },
-  },
+      default: "Předseda Klubu investorů"
+    }
+  }
 };
 </script>
