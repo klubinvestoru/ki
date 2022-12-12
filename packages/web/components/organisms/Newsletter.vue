@@ -72,8 +72,8 @@
 <script>
 export default {
   props: {
-    subscribe: { type: String, default: "" },
-    placeholder: { type: String, default: "" }
+    subscribe: { type: String, default: "Přihlásit" },
+    placeholder: { type: String, default: "E-mailová adresa" }
   },
   data() {
     return {
