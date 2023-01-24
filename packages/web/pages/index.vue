@@ -9,6 +9,35 @@
 
     <v-media-combo :content="cont1" />
     <v-text-tile :content="newsletter" />
+
+    <section class="w-10/12 md:container mx-auto">
+      <h3
+        class="uppercase text-lg tracking-wider font-bold text-green-800 mb-4 text-center"
+      >
+        Generální partneři
+      </h3>
+      <div
+        class="grid gap-12 md:flex mt-12 justify-evenly items-center flex-wrap"
+      >
+        <a href="#" class="w-32"
+          ><img src="/pwc.png" alt="PwC Klub investorů" class="w-full"
+        /></a>
+        <a href="#" class="w-32"
+          ><img src="/jt.png" alt="J&amp;T Klub investorů" class="w-full"
+        /></a>
+        <a href="#" class="w-32"
+          ><img
+            src="/Pale_Fire_Capital.jfif"
+            alt="Pale Fire Capital Klub investorů"
+            class="w-full"
+        /></a>
+      </div>
+      <div class="flex justify-end mt-8">
+        <a href="/partneri" class="text-lg font-medium text-green-600"
+          >Více o partnerech →</a
+        >
+      </div>
+    </section>
   </div>
 </template>
 

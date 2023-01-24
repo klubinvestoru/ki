@@ -80,6 +80,16 @@ export default {
     // const response = await this.$strapi.find("jobs");
     const response = [
       {
+        slug: "Internship-v-tmu-Business-Recovery-Services_375056WD",
+        id: "e0ceea5cdbe94f908facf4591311266e",
+        company: "PwC",
+        City: "Praha",
+        Fulltime: false,
+        Parttime: true,
+        Title: "Internship v týmu Business Recovery Services",
+        Logo: "/pwc.png"
+      },
+      {
         slug: "Junior-analytik-Capitalinked-e0ceea5cdbe94f908facf4591311266d",
         id: "e0ceea5cdbe94f908facf4591311266d",
         company: "Capitalinked",
