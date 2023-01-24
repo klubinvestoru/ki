@@ -7,15 +7,13 @@
         <div class="-mt-12 md:mt-0">
           <h2>J&amp;T finanční skupina</h2>
           <p>
-            J&amp;T finanční skupina je slovenská investiční společnost,
-            založená v roce 1995. V oblasti investic se zaměřuje na financování
-            společností (holdingů) investujících do energetických a průmyslových
-            aktiv, médií, real estatu, turismu a hotelových aktiv. Mimo to
-            poskytuje komplexní služby spojené s privátním bankovnictvím,
-            správou majetku privátních klientů a institucí, investičním
-            bankovnictvím a obchodování s cennými papíry. Své služby rozvíjí
-            především na trzích České a Slovenské republiky, ale je přítomna i
-            na trzích Ruské federace a v Karibské oblasti.
+            J&T banka je česká privátní a investiční banka, působící na českém
+            trhu od roku 1998. Spolu se slovenskou a chorvatskou pobočkou patří
+            do skupiny J&T Finance Group SE a patří mezi největší vydavatele
+            dluhopisů v České republice. Prostřednictvím J&T IB Capital Markets
+            také zprostředkovává prodej dluhopisů významných hráčů v regionu.
+            J&T Banka rovněž spravuje řadu fondů s cílem zaručit jejich
+            maximální výkon a výnos.
           </p>
         </div>
       </div>
