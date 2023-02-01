@@ -3,9 +3,13 @@
     <h1 class="text-xl sm:text-2xl md:text-3xl mb-6">Partneři</h1>
     <div class="prose mb-16">
       <div class="grid md:flex items-baseline">
-        <img src="/jt.png" alt="J&amp;T Klub investorů" class="w-16 md:mr-8" />
+        <img
+          src="/jt.png"
+          alt="J&amp;T Banka Klub investorů"
+          class="w-16 md:mr-8"
+        />
         <div class="-mt-12 md:mt-0">
-          <h2>J&amp;T finanční skupina</h2>
+          <h2>J&amp;T Banka</h2>
           <p>
             J&T banka je česká privátní a investiční banka, působící na českém
             trhu od roku 1998. Spolu se slovenskou a chorvatskou pobočkou patří

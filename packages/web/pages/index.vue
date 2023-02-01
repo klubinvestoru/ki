@@ -23,7 +23,7 @@
           ><img src="/pwc.png" alt="PwC Klub investorů" class="w-full"
         /></a>
         <a href="#" class="w-32"
-          ><img src="/jt.png" alt="J&amp;T Klub investorů" class="w-full"
+          ><img src="/jt.png" alt="J&amp;T Banka Klub investorů" class="w-full"
         /></a>
         <a href="#" class="w-32"
           ><img

@@ -44,7 +44,7 @@
           <h3 class="text-center">Generální partneři Klubu investorů</h3>
 
           <div class="grid gap-16 mt-8 w-40 mx-auto">
-            <img src="/jt.png" alt="J&amp;T Klub investorů" />
+            <img src="/jt.png" alt="J&amp;T Banka Klub investorů" />
             <img src="/pwc.png" alt="PwC Klub investorů" />
             <img
               src="/Pale_Fire_Capital.jfif"
