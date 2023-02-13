@@ -24,8 +24,8 @@
       >
         <nuxt-link
           :to="`/kariera/${job.slug}`"
-          v-for="job in content"
-          :key="job.id"
+          v-for="(job, key) in content"
+          :key="key"
           class="h-full w-full rounded-lg duration-300 shadow-md bg-white overflow-hidden grid md:flex items-center hover:shadow-lg"
           :class="
             job.top && job.company === 'PwC' && 'border-l-8 border-pwc-orange'
@@ -87,6 +87,63 @@ export default {
         Fulltime: false,
         Parttime: true,
         Title: "Internship v týmu Business Recovery Services",
+        Logo: "/pwc.png"
+      },
+      {
+        slug: "Konzultant-ka-v-tmu-Business-Recovery-Services_389913WD-1",
+        company: "PwC",
+        City: "Praha",
+        Fulltime: true,
+        Parttime: false,
+        Title: "Konzultant/ka v týmu Business Recovery Services",
+        Logo: "/pwc.png"
+      },
+      {
+        slug: "Konzultant---Management-Consulting_403087WD-1",
+        company: "PwC",
+        City: "Praha",
+        Fulltime: true,
+        Parttime: false,
+        Title: "Konzultant - Management Consulting",
+        Logo: "/pwc.png"
+      },
+      {
+        slug: "PwC-Advisory-Graduate-Program_277051WD",
+        company: "PwC",
+        City: "Praha",
+        Fulltime: true,
+        Parttime: false,
+        Title: "PwC Advisory Graduate Program",
+        Logo: "/pwc.png"
+      },
+      {
+        slug: "Consultant---Capital-Projects---Infrastructure_232832WD",
+        company: "PwC",
+        City: "Praha",
+        Fulltime: true,
+        Parttime: false,
+        Title: "Consultant - Capital Projects & Infrastructure",
+        Logo: "/pwc.png"
+      },
+      {
+        slug:
+          "Konzultant-Konzultantka---Risk-management-pro-finann-instituce---Praha---Brno_316183WD",
+        id: "e0ceea5cdbe94f908facf4591311266e",
+        company: "PwC",
+        City: "Praha",
+        Fulltime: true,
+        Parttime: false,
+        Title: "Konzultant/ka - Risk management",
+        Logo: "/pwc.png"
+      },
+      {
+        slug: "Consultant-in-Forensic-Services-team_330614WD",
+        id: "e0ceea5cdbe94f908facf4591311266e",
+        company: "PwC",
+        City: "Praha",
+        Fulltime: true,
+        Parttime: false,
+        Title: "Consultant in Forensic Services team",
         Logo: "/pwc.png"
       },
       {
