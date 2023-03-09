@@ -30,7 +30,7 @@
             </button>
           </a>
           <a
-            href="mailto:jan.pauch@klubinvestoru.com"
+            href="mailto:info@klubinvestoru.com"
             class="mt-2 text-green-200 hover:underline"
             >Raději pošlu mail</a
           >
